@@ -19,19 +19,19 @@ public class ObjectMover : MonoBehaviour
         }
         else
         {
-            CheckLineDrawn();
+            CheckForClickOnFinish();
         }
     }
 
-    void CheckLineDrawn()
+    void CheckForClickOnFinish()
     {
-        // Check if the line has been drawn completely
-        if (lineDrawer != null && lineDrawer.lineRenderer != null)
+        // Check for mouse click on object with the 'Finish' tag
+        if (Input.GetMouseButtonDown(0)) // Assuming left mouse button click
         {
-            LineRenderer lineRenderer = lineDrawer.lineRenderer;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
 
-            // Check if the object has reached the end of the line
-            if (distanceAlongLine >= lineRenderer.positionCount - 1)
+            if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("Finish"))
             {
                 lineDrawn = true;
                 // Optionally, you can perform additional actions when the object reaches the end of the line
@@ -80,6 +80,7 @@ public class ObjectMover : MonoBehaviour
         }
     }
 }
+
 
 
 
