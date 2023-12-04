@@ -5,22 +5,28 @@ using UnityEngine;
 public class DynamicLineDrawer : MonoBehaviour
 {
     public LineRenderer lineRenderer;
-    public GameObject startObject;
     public GameObject finishObject;
+    public float connectThreshold = 0.5f; // Adjust the threshold as needed
 
     private bool isDrawing = false;
+    private List<Vector3> linePoints = new List<Vector3>();
+    private bool canDrawOnPath = true;
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (!isDrawing && IsMouseOverStartObject())
+            if (IsMouseOverStartObject())
             {
                 StartDrawing();
             }
             else if (isDrawing)
             {
                 ContinueDrawing();
+            }
+            else if (IsMouseOverFinishObject())
+            {
+                ConnectToFinish();
             }
         }
     }
@@ -29,28 +35,59 @@ public class DynamicLineDrawer : MonoBehaviour
     {
         isDrawing = true;
         lineRenderer.positionCount = 1;
-        lineRenderer.SetPosition(0, GetMousePositionOnPlane());
+        linePoints.Clear();
+        linePoints.Add(GetMousePositionOnPlane());
+        lineRenderer.SetPosition(0, linePoints[0]);
+        canDrawOnPath = true;
     }
 
     void ContinueDrawing()
     {
-        int currentPositionCount = lineRenderer.positionCount;
         Vector3 currentMousePosition = GetMousePositionOnPlane();
-        lineRenderer.positionCount = currentPositionCount + 1;
-        lineRenderer.SetPosition(currentPositionCount, currentMousePosition);
 
-        // Check if the line connects to the 'Finish' object
-        if (IsMouseOverFinishObject())
+        // Check for collision with objects tagged as "building" only when actively drawing
+        if (CheckCollisionWithBuilding(linePoints[linePoints.Count - 1], currentMousePosition))
         {
-            FinishDrawing();
+            // Don't draw if there's a collision with the building
+            canDrawOnPath = false;
+        }
+        else
+        { canDrawOnPath |= true; }
+
+        if (canDrawOnPath)
+        {
+            linePoints.Add(currentMousePosition);
+
+            int currentPositionCount = linePoints.Count;
+            lineRenderer.positionCount = currentPositionCount;
+
+            for (int i = 0; i < currentPositionCount; i++)
+            {
+                lineRenderer.SetPosition(i, linePoints[i]);
+            }
         }
     }
 
-    void FinishDrawing()
+    void ConnectToFinish()
     {
-        isDrawing = false;
-        Debug.Log("Line connected to Finish object!");
-        // Optionally, you can perform additional actions when the line connects to the 'Finish' object
+        if (isDrawing && linePoints.Count > 1)
+        {
+            Vector3 finishObjectPosition = finishObject.transform.position;
+
+            // Connect the line to the finish object
+            linePoints.Add(finishObjectPosition);
+
+            int currentPositionCount = linePoints.Count;
+            lineRenderer.positionCount = currentPositionCount;
+
+            for (int i = 0; i < currentPositionCount; i++)
+            {
+                lineRenderer.SetPosition(i, linePoints[i]);
+            }
+
+            isDrawing = false;
+            Debug.Log("Drawing stopped. Line connected to Finish object!");
+        }
     }
 
     bool IsMouseOverStartObject()
@@ -58,7 +95,7 @@ public class DynamicLineDrawer : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        return Physics.Raycast(ray, out hit) && hit.collider.gameObject == startObject && hit.collider.gameObject.tag == "Start";
+        return Physics.Raycast(ray, out hit) && hit.collider.gameObject.CompareTag("Start");
     }
 
     bool IsMouseOverFinishObject()
@@ -66,7 +103,25 @@ public class DynamicLineDrawer : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        return Physics.Raycast(ray, out hit) && hit.collider.gameObject == finishObject && hit.collider.gameObject.tag == "Finish";
+        return Physics.Raycast(ray, out hit) && hit.collider.gameObject == finishObject && hit.collider.gameObject.CompareTag("Finish");
+    }
+
+    bool CheckCollisionWithBuilding(Vector3 startPoint, Vector3 endPoint)
+    {
+        Ray ray = new Ray(startPoint, endPoint - startPoint);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit, Vector3.Distance(startPoint, endPoint)))
+        {
+            if (hit.collider.CompareTag("Building"))
+            {
+                // If the hit object is a building, stop drawing only for this segment
+                canDrawOnPath = false;
+                return true;
+            }
+        }
+
+        return false;
     }
 
     Vector3 GetMousePositionOnPlane()
@@ -83,5 +138,6 @@ public class DynamicLineDrawer : MonoBehaviour
         return Vector3.zero;
     }
 }
+
 
 
