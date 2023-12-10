@@ -356,6 +356,7 @@ MonoBehaviour:
   gameWinText: {fileID: 1390185124}
   decreaseRate: 1
   increaseAmount: 0.7
+  winThreshold: 0.75
 --- !u!1 &416184798
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,7 +513,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &640373930
 RectTransform:
   m_ObjectHideFlags: 0
