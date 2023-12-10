@@ -9,10 +9,11 @@ public class ButtonMasher : MonoBehaviour
     public TextMeshProUGUI gameWinText;
     public float decreaseRate = 1f;
     public float increaseAmount = 0.1f;
-    private float timeLeft = 10f;
-    private float startdelay = 1f;
-    private bool gameEnded = false;
-    private bool gameWin = false;
+    public float winThreshold = 0.75f;
+    private float timeRemain = 10f;
+    private float startDelay = 1f;
+    private bool _gameEnded = false;
+    private bool _gameWin = false;
 
     void Start()
     {
@@ -23,7 +24,7 @@ public class ButtonMasher : MonoBehaviour
 
     void Update()
     {
-        if (gameEnded)
+        if (_gameEnded)
         {
             return; // Stop updating the game if it's over
         }
@@ -36,30 +37,38 @@ public class ButtonMasher : MonoBehaviour
         }
 
         progressBar.value -= decreaseRate * Time.deltaTime;
-        timeLeft -= Time.deltaTime;
-        startdelay -= Time.deltaTime;
-        if (timeLeft <= 0f && progressBar.value > 5)
-        {
-            GameWin();
-        }
-        if (timeLeft <= 0f && progressBar.value < 5|| progressBar.value <= 0 && startdelay <=0f)
+        timeRemain -= Time.deltaTime;
+        startDelay -= Time.deltaTime;
+        if (progressBar.value <= 0)
         {
             EndGame();
+        }
+        if (timeRemain <= 0f )
+        {
+            if (progressBar.value >= winThreshold)
+            {
+                GameWin();
+            }
+            else
+            {
+                EndGame();
+            }
+            
         }
         
     }
 
     void EndGame()
     {
-        gameEnded = true;
+        _gameEnded = true;
         gameOverText.enabled = true; // Show the game over text
         // Optionally, you can also disable the spacebar input here
     }
 
     void GameWin()
     {
-        gameWin = true;
-        gameEnded = true;
+        _gameWin = true;
+        _gameEnded = true;
         gameWinText.enabled = true;
     }
 }
