@@ -1,0 +1,2437 @@
+fileFormatVersion: 2
+guid: f4b9c5f36839cf54985a885507f4091b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BEEG_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326a419f0d7e1b848bb0d7910c5b8583
+      internalID: 1146568759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1190e3b5b087346acac89d9b579080
+      internalID: -1177772864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33742827f9839444799f1bd92801e1f9
+      internalID: 1333761393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a4637609ff3c14c9d630b3f95f3a65
+      internalID: -1808008999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3deef76f85b892c448922a3ee9a839d9
+      internalID: 2137801573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_5
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcd6565fe346c141b53e22b10f6fcd3
+      internalID: -1911673261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553187f78fc7c2441bb0e4e03a08d3e7
+      internalID: 1670710647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_7
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d11589d19d767428bf01e3405282e0
+      internalID: 1993151946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_8
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a626247e558cdc345b687e91b2c5bc6b
+      internalID: 1844307661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_9
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39eec55f7fc319f4da161da653bce2d9
+      internalID: 2019993468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_10
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accb55d1e54d9f642bd6cdb7d5378d05
+      internalID: -685897189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_11
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 577
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dcc62ecdaeea846be6f283c796d4da
+      internalID: 1477401589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45d89bf1fa3ee0488ee3ad54c43594f
+      internalID: 1978853010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a52646753fd3bc4387edbb7c8256efa
+      internalID: -1056846754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ad8b11f7c17864d817ed5239e59510
+      internalID: 27621594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca15d11f256e5b46980bab60afede29
+      internalID: 700767658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_16
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7bd5db3376b3241890e9cb02b52eaa
+      internalID: -1067460906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_17
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa63c66fdfb45047a34a937a317ac45
+      internalID: 433712923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d2d40e0bf11af49b64f0b754929002
+      internalID: -1520633176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_19
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b339aecbcef6954a93c649f9bc1f05c
+      internalID: -1285600336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_20
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22029d55aa95eb6499702a509467b6ff
+      internalID: -1158149764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_21
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79453afdfe61aa4997693e6b90dc051
+      internalID: 534556431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_22
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617c257f65ebb58449590098551bfbc7
+      internalID: 308688217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_23
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 505
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad573a66c293e124790c30caeaee1143
+      internalID: 230642387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4294b3146030ae04bb57e18b580d11d6
+      internalID: -401882152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f36db4a679dba848bf0d24f08e83945
+      internalID: 595127126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4e49c8d0376514a95949372ce65fe9
+      internalID: -1235142716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf2c999c3a32f34b88aaa44d83f1a53
+      internalID: -644012612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_28
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bd81f2e58b1aa43b31f49379c2c6ef
+      internalID: -1633182199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_29
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b61bd7492be16147a5ddd0853c64199
+      internalID: 986587914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f2263c5695d874488a3107ed5ddbdd
+      internalID: 58806814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_31
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3215056fa6511ba4289e57e5631e11a4
+      internalID: 166922105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_32
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92496ca2200ec0840b87bfee82dde59b
+      internalID: 1498544247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_33
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4016e66bcdea69f4c94644bdf284f4d7
+      internalID: 1573961323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_34
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19957a8e836c634184bb3313fa6fd0d
+      internalID: 1378112954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_35
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 433
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9262b19f0c2027b4c8b312823db0856d
+      internalID: -1126645014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 361
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5293b7ff30b8d46a139fe667268623
+      internalID: 1675490056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 361
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1394f7899a98d54886ff77acf3898b2
+      internalID: 1848808679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 361
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b826e2f828b90314192d003713642823
+      internalID: -740485271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 361
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8e2707d325f324eb46d11624bb7bca
+      internalID: -1062698633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_40
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 361
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a2accf1c062e440aa922881cceb6a2
+      internalID: 1224036225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_41
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 361
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb7dbb86850a354e9ad100933a374ce
+      internalID: -596085549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_42
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 361
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796bd8c8af8abb843be2c0c08bc5926b
+      internalID: -914312338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_43
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 361
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e048e4580aa77884d8da113ca0c1414a
+      internalID: -537986051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_44
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 361
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a060e5f97c7f544a86eacc3fddab24
+      internalID: -748332172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_45
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 361
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd81579ea108f364e83876b3d39f5faa
+      internalID: 1710096194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_46
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 361
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f40f90239345a24c8ee218e65c036f9
+      internalID: -1984765628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a9e2f9253d551419cf682528285d07
+      internalID: 1385588801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_48
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a3ee9a3eea0614ba597b15f2ac0a77
+      internalID: 130214629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862b910292ee5d449a74bb966229a6fb
+      internalID: 1688546770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_50
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f82c455d9e5d034491f7d21cf1f6dd2
+      internalID: 1071447456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fd179afec8d4e46bbf50b9563e8dba
+      internalID: -818756540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_52
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbba2ffda29e6874f97eb90089b5212b
+      internalID: 1328598640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_53
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bf9c93fe4c0f146833a7c883686198
+      internalID: 798390247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_54
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847e93fed78e2b3419263103e9f7ad23
+      internalID: 916277342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_55
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48687cd44b9ddb44a87a051dafa15e68
+      internalID: 1695550712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_56
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1914dfcf0cf8f4d498beaf5a9fba8dcb
+      internalID: 419134793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_57
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ed8f95dd8075940a2ce140ed82fee5
+      internalID: 653481839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_58
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87a2dbbe4183144d84393e70843e640
+      internalID: 1723340689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_59
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4d0a5f7a56dee49968798dcf12cf47
+      internalID: -568883580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_60
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 289
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cbac547e27ca940ac55f4af033afd9
+      internalID: 265989432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2d584b5205787439d8ecd9c166f49a
+      internalID: 179056673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_62
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7586f0dd57c9d7c40b050ef9e1783e90
+      internalID: -834725344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f160f6ea4cd0e5f4db6ef9e7ac8f64f3
+      internalID: -844669676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_64
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380b2e986cea8a741b82836482844335
+      internalID: 1064716164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_65
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c9949a5c559ee4ea44e25924ddf279
+      internalID: 1154611089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_66
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a456baea7ddac45968b58106f96cd3
+      internalID: -259430588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_67
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12eb164a9f6773a4bbaf115e8b0b7cc3
+      internalID: -701968053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_68
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e50d6fb9ba84424096f3164f33b072e
+      internalID: 1313068355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_69
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0af4382f9da5694a8955fd5bde60bcc
+      internalID: 1212293045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_70
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab990139ecacf64d9cce59a8fb4b188
+      internalID: -748701862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_71
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0eaf86411a6574781aadeb58eba0e7
+      internalID: -1433444410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_72
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23806a8d7f3e6634e9a4ff77c7837a29
+      internalID: 1678378855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_73
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89775fa9de6fd8b438dcf6999250d2aa
+      internalID: -1473908733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_74
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bf73b4728faf048a0cfa414e3082dd
+      internalID: -516778456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1894a7011cc67864bb0d7070210cce30
+      internalID: 274389801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_76
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c3d9f6c18ce0a4dad964b0cec6ae4b
+      internalID: -301873983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_77
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccf54090a41b5f4f9bad0c4508abb0c
+      internalID: -1533923918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_78
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8b213a07fa610469738c90a0251a0c
+      internalID: -1847794426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f59d146b1fca0547807110f7a2b6b1f
+      internalID: -1221662397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_80
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0315527a8701440b94abfc42cfd3ec
+      internalID: -1845583103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_81
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9eaceaee3eded49bc345fdeeae5113
+      internalID: 1562874230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_82
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d7f9351236f6a4386510b4052f114d
+      internalID: 875599514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_83
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab5ffe85551080438c29ca55218860f
+      internalID: 401075057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_84
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb7ab5a24b6a2a40a59d6bdc5eb4b7f
+      internalID: -904456270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_85
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f57fde39883694295d5abbae6408c4
+      internalID: 726530201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_86
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910d30a8b8e438241ab59517a7f7994b
+      internalID: 1065331345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_87
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff741fa3d0f6a448b74ecce7892ffca
+      internalID: -1055232710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_88
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 145
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81257d6baa9e25343805271d14780f80
+      internalID: 1643769364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 73
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8020226d0e00d942a57601d03966ad3
+      internalID: 1203769225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_90
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 73
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99812d5c20c70154dbbd16ff0427ff4e
+      internalID: -45352146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_91
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 73
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e42a5be712ce7940bbd0f62c171c86f
+      internalID: -1440840243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_92
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 73
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6446b3565c854642978c10c89274901
+      internalID: -603714200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_93
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 73
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bb73e0c78775b419b7db4c58152761
+      internalID: -903472527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_94
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 73
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e29a3f3a3f04c48a6d6f54872146a7
+      internalID: 2038389674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_95
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 73
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc13fff6f304054493a432656fc7b8b
+      internalID: -2110371227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_96
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 73
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047d5e081b037974d8ee02b8695dec9d
+      internalID: -190435610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_97
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 73
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b0d2c00eed7a341afb70538f3d3144
+      internalID: 839882385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_98
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 73
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997e6f05077d42540b25613da133a813
+      internalID: 2045427735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_99
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb8560d98f61c4408a1f44ef2f37caa
+      internalID: -1110369890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_100
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62203b11da41c484c9cffb7c05eedb87
+      internalID: -674352145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_101
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637a853e849eb034fb6e41510bcc7702
+      internalID: 157416957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_102
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab1c6b9f0794cd4abcbb0f1573ae9d2
+      internalID: -1651424473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_103
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165e6003464e3224ebd55955f2a109be
+      internalID: -2089770144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEEG_104
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dffca4417714241bc844ff9f364d00
+      internalID: -1563249315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 48e6f8f6098262141bf3fffa399cfd2e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BEEG_0: 1146568759
+      BEEG_1: -1177772864
+      BEEG_10: -685897189
+      BEEG_100: -674352145
+      BEEG_101: 157416957
+      BEEG_102: -1651424473
+      BEEG_103: -2089770144
+      BEEG_104: -1563249315
+      BEEG_11: 1477401589
+      BEEG_12: 1978853010
+      BEEG_13: -1056846754
+      BEEG_14: 27621594
+      BEEG_15: 700767658
+      BEEG_16: -1067460906
+      BEEG_17: 433712923
+      BEEG_18: -1520633176
+      BEEG_19: -1285600336
+      BEEG_2: 1333761393
+      BEEG_20: -1158149764
+      BEEG_21: 534556431
+      BEEG_22: 308688217
+      BEEG_23: 230642387
+      BEEG_24: -401882152
+      BEEG_25: 595127126
+      BEEG_26: -1235142716
+      BEEG_27: -644012612
+      BEEG_28: -1633182199
+      BEEG_29: 986587914
+      BEEG_3: -1808008999
+      BEEG_30: 58806814
+      BEEG_31: 166922105
+      BEEG_32: 1498544247
+      BEEG_33: 1573961323
+      BEEG_34: 1378112954
+      BEEG_35: -1126645014
+      BEEG_36: 1675490056
+      BEEG_37: 1848808679
+      BEEG_38: -740485271
+      BEEG_39: -1062698633
+      BEEG_4: 2137801573
+      BEEG_40: 1224036225
+      BEEG_41: -596085549
+      BEEG_42: -914312338
+      BEEG_43: -537986051
+      BEEG_44: -748332172
+      BEEG_45: 1710096194
+      BEEG_46: -1984765628
+      BEEG_47: 1385588801
+      BEEG_48: 130214629
+      BEEG_49: 1688546770
+      BEEG_5: -1911673261
+      BEEG_50: 1071447456
+      BEEG_51: -818756540
+      BEEG_52: 1328598640
+      BEEG_53: 798390247
+      BEEG_54: 916277342
+      BEEG_55: 1695550712
+      BEEG_56: 419134793
+      BEEG_57: 653481839
+      BEEG_58: 1723340689
+      BEEG_59: -568883580
+      BEEG_6: 1670710647
+      BEEG_60: 265989432
+      BEEG_61: 179056673
+      BEEG_62: -834725344
+      BEEG_63: -844669676
+      BEEG_64: 1064716164
+      BEEG_65: 1154611089
+      BEEG_66: -259430588
+      BEEG_67: -701968053
+      BEEG_68: 1313068355
+      BEEG_69: 1212293045
+      BEEG_7: 1993151946
+      BEEG_70: -748701862
+      BEEG_71: -1433444410
+      BEEG_72: 1678378855
+      BEEG_73: -1473908733
+      BEEG_74: -516778456
+      BEEG_75: 274389801
+      BEEG_76: -301873983
+      BEEG_77: -1533923918
+      BEEG_78: -1847794426
+      BEEG_79: -1221662397
+      BEEG_8: 1844307661
+      BEEG_80: -1845583103
+      BEEG_81: 1562874230
+      BEEG_82: 875599514
+      BEEG_83: 401075057
+      BEEG_84: -904456270
+      BEEG_85: 726530201
+      BEEG_86: 1065331345
+      BEEG_87: -1055232710
+      BEEG_88: 1643769364
+      BEEG_89: 1203769225
+      BEEG_9: 2019993468
+      BEEG_90: -45352146
+      BEEG_91: -1440840243
+      BEEG_92: -603714200
+      BEEG_93: -903472527
+      BEEG_94: 2038389674
+      BEEG_95: -2110371227
+      BEEG_96: -190435610
+      BEEG_97: 839882385
+      BEEG_98: 2045427735
+      BEEG_99: -1110369890
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
