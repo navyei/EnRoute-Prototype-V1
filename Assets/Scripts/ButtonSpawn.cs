@@ -2,14 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class ButtonSpawn : MonoBehaviour
 {
-    public GameObject Car;
-
-    private vector3
+    public GameObject BaseCar;
+    public GameObject SpawnCar;
+    private Transform BasePos;
+    private Vector3 SpawnPos;
 
     private void Start()
     {
-        
+        BasePos = BaseCar.transform;
+        Destroy(BaseCar);
     }
 }
