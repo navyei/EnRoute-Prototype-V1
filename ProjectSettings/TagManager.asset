@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+
+  tags:
+  - Start
+  - Path
+  - Building
+  - circle
+  - triangle
   layers:
   - Default
   - TransparentFX
