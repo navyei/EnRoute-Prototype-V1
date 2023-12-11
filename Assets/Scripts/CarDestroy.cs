@@ -4,22 +4,20 @@ using UnityEngine;
 
 public class CarDestroy : MonoBehaviour
 {
-
+    // Start is called before the first frame update
     void Start()
     {
-
+        
     }
+
+    // Update is called once per frame
     void Update()
     {
-       
+        
     }
-    private void OnColissionEnter2D(Collider2D collission)
-    
-        {
-           Destroy(gameObject);
-           PauseGame();
-        }
-    
-    
-   
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+       Destroy(other.gameObject);
+       Destroy(this.gameObject);
+    }
 }

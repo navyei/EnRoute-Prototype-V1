@@ -7,7 +7,7 @@ public class MG1obstacle : MonoBehaviour
 {
     public GameObject objectPrefab;
     public float spawnInterval = 1f;
-    private float timer;
+    private float timer = 0;
 
     void Start()
     {
@@ -27,5 +27,6 @@ public class MG1obstacle : MonoBehaviour
     {
         Vector3 spawnPosition = new Vector3(Random.Range(-10f, 10f), 10f, Random.Range(-10f, 10f));
         Instantiate(objectPrefab, spawnPosition, Quaternion.identity);
+
     }
 }
