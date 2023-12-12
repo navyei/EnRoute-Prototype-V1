@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using TMPro;
 
-public class GameManager : MonoBehaviour
+public class Minigame : MonoBehaviour
 {
     public float timeLimit = 20f;
     private float timer;

@@ -15,7 +15,7 @@ public class InputToChangeScene :MonoBehaviour
     }
     private void Update()
     {
-        GameManagerScript GM = FindObjectOfType<GameManagerScript>();
+        GameManager GM = FindObjectOfType<GameManager>();
         if (TargetKey && GM != null)
         {
             GM.UpcomingScene = SceneName;
