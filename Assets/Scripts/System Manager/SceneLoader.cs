@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
     // Method to change the scene. The sceneName parameter is the name of the scene you want to load.
-    public void ChangeScene(string Menu)
+    public void ChangeScene(string GamePlay)
     {
-        SceneManager.LoadScene(Menu);
+        SceneManager.LoadScene(GamePlay);
     }
 }
