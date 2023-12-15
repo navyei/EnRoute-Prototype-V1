@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.4420549, g: 0.49104023, b: 0.5709662, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -269,8 +269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2880f4148433488b971626fe889fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Gameplay
---- !u!1 &1089626270
+  SceneName: Station
+--- !u!1 &351563875
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -278,8 +278,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1089626272}
-  - component: {fileID: 1089626271}
+  - component: {fileID: 351563877}
+  - component: {fileID: 351563876}
   m_Layer: 0
   m_Name: GameManagerObject
   m_TagString: Untagged
@@ -287,13 +287,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1089626271
+--- !u!114 &351563876
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089626270}
+  m_GameObject: {fileID: 351563875}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ce35196a33470d4cb89d8b8083ca84c, type: 3}
@@ -304,13 +304,13 @@ MonoBehaviour:
   CO2_Count: 0
   UpcomingScene: 
   SceneChangeInput: 0
---- !u!4 &1089626272
+--- !u!4 &351563877
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089626270}
+  m_GameObject: {fileID: 351563875}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 543.2178, y: -242.39441, z: 1582.6602}
@@ -734,4 +734,4 @@ SceneRoots:
   - {fileID: 1897033427}
   - {fileID: 1101218296}
   - {fileID: 1231112767}
-  - {fileID: 1089626272}
+  - {fileID: 351563877}

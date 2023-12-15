@@ -10,6 +10,7 @@ public class ButtonSpawn : MonoBehaviour
 
     private Transform BasePos;
     private Vector3 SpawnPos;
+    private Button Input;
 
     private void Start()
     {
@@ -18,6 +19,9 @@ public class ButtonSpawn : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        
+        if (Input != null)
+        {
+
+        }
     }
 }
