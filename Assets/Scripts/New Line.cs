@@ -135,9 +135,20 @@ public class DynamicLineDrawer : MonoBehaviour
             return ray.GetPoint(distance);
         }
 
-        return Vector3.zero;
+        // If the ray doesn't hit the plane, return the current mouse position without modifying it
+        return ray.origin + ray.direction * distance;
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

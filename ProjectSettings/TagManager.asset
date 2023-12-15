@@ -3,13 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-
   tags:
-  - Start
   - Path
   - Building
-  - circle
-  - triangle
+  - Start
+  - Walk
   layers:
   - Default
   - TransparentFX
