@@ -4,5 +4,38 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Talking.unity
+    guid: 7d407d42e68c0744082927e7a5233bc9
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e4169acf1690f534c8335b893d5735f9
+  - enabled: 1
+    path: Assets/Scenes/Button.unity
+    guid: 49a41eec25be27142be8cf4c5c3891b1
+  - enabled: 1
+    path: Assets/Scenes/City.unity
+    guid: 09b00f965e7bad44f879c5787f4a276d
+  - enabled: 1
+    path: Assets/Scenes/Navigation.unity
+    guid: 829ab0ebbd7a27a4cacfc4827f9800b6
+  - enabled: 1
+    path: Assets/Scenes/Minigame 1.unity
+    guid: bb56b4376dd3a534f9301f3624182c9e
+  - enabled: 1
+    path: Assets/Scenes/MiniGame2.unity
+    guid: 869fde6301aa4674887dc6fee5ed91eb
+  - enabled: 1
+    path: Assets/Scenes/Minigame3_ButtonMash.unity
+    guid: 2206d0c565f401441a9c2ec886e1eb78
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 86a5e6dbb22996d48a128596770c29e9
+  - enabled: 1
+    path: Assets/Scenes/Stage.unity
+    guid: f303732d99f0e4c41b5a3f2a1ca77f08
   m_configObjects: {}
