@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,9 +7,16 @@ public class MovingTheCam : MonoBehaviour
 {
     public float CamSpeed;
     public Camera Camera;
+    public CinemachineVirtualCamera VirtualCamera;
 
-	private float MouseX;
+    private float MouseX;
 	private float MouseY;
+    private CinemachineOrbitalTransposer OrbTrans;
+
+    void Start()
+    {
+        OrbTrans = VirtualCamera.GetCinemachineComponent<CinemachineOrbitalTransposer>();
+    }
 
     void Update()
 	{
@@ -18,17 +26,24 @@ public class MovingTheCam : MonoBehaviour
         Vector3 CamRght = Camera.main.transform.right; CamRght.y = 0f; CamRght.Normalize();
         Vector3 Movement = CamFwrd*MouseY + CamRght*MouseX;
 
-        if (Input.GetKey(KeyCode.Mouse2))
+        if (Input.GetKey(KeyCode.Mouse1))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            OrbTrans.m_XAxis.m_InputAxisName = "Mouse X";
+        }
+        else if (Input.GetKey(KeyCode.Mouse2))
         {
             transform.Translate(Movement * CamSpeed * Time.deltaTime, Space.World);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
-        else if (Input.GetKey(KeyCode.Mouse1)) { }
         else
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            OrbTrans.m_XAxis.m_InputAxisName = "";
+            OrbTrans.m_XAxis.m_InputAxisValue = 0f;
         }
     }
 }
