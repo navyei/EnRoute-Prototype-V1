@@ -13,7 +13,7 @@ public class ButtonMasher : MonoBehaviour
     private float timeRemain = 10f;
     private float startDelay = 1f;
     private bool _gameEnded = false;
-    private bool _gameWin = false;
+    private bool _gameStarted = false; // Added variable to track game start
 
     void Start()
     {
@@ -29,33 +29,42 @@ public class ButtonMasher : MonoBehaviour
             return; // Stop updating the game if it's over
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (!_gameStarted && Input.GetKeyDown(KeyCode.Space))
         {
-            // Exponential decrease in increase amount as the progress bar approaches 1
-            float increaseFactor = Mathf.Exp(-progressBar.value * 2f);
-            progressBar.value += increaseAmount * increaseFactor;
+            _gameStarted = true;
         }
 
-        progressBar.value -= decreaseRate * Time.deltaTime;
-        timeRemain -= Time.deltaTime;
-        startDelay -= Time.deltaTime;
-        if (progressBar.value <= 0)
+        if (_gameStarted)
         {
-            EndGame();
-        }
-        if (timeRemain <= 0f )
-        {
-            if (progressBar.value >= winThreshold)
+            // Existing logic remains the same
+
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                GameWin();
+                float increaseFactor = Mathf.Exp(-progressBar.value * 2f);
+                progressBar.value += increaseAmount * increaseFactor;
             }
-            else
+
+            progressBar.value -= decreaseRate * Time.deltaTime;
+            timeRemain -= Time.deltaTime;
+            startDelay -= Time.deltaTime;
+
+            if (progressBar.value <= 0)
             {
                 EndGame();
             }
-            
+
+            if (timeRemain <= 0f)
+            {
+                if (progressBar.value >= winThreshold)
+                {
+                    GameWin();
+                }
+                else
+                {
+                    EndGame();
+                }
+            }
         }
-        
     }
 
     void EndGame()
@@ -67,8 +76,8 @@ public class ButtonMasher : MonoBehaviour
 
     void GameWin()
     {
-        _gameWin = true;
         _gameEnded = true;
         gameWinText.enabled = true;
     }
 }
+
