@@ -28,12 +28,18 @@ public class GameManager :MonoBehaviour
     public int CO2_Count;
     public string UpcomingScene;
     public bool SceneChangeInput = false;
+    public bool InGame = false;
+    public bool MinigameWin = false;
 
     private void FixedUpdate()
     {
-        if ( (Score == RequiredScore)||(SceneChangeInput == true) ) 
+        if ( (Score == RequiredScore) || SceneChangeInput && !InGame) 
         {
             SceneManager.LoadScene(UpcomingScene);
+        }
+        else if ((Score == RequiredScore) || SceneChangeInput && InGame)
+        {
+            SceneManager.LoadScene(UpcomingScene, LoadSceneMode.Additive);
         }
     }
 }
