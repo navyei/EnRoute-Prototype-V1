@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: df1e935010bcc944fb8568924a2f3d0b
+guid: 0d2c0d0dbaa8fd84ba012d1371db10e7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -106,47 +106,107 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Red_and_green_mark2x_0
+      name: Button@2x_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 0
-        width: 355
-        height: 647
+        x: 0
+        y: 10
+        width: 692
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 34, y: 15, z: 28, w: 14}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7dd6da224052f94ba73470545cfbb8f
-      internalID: 687089456
+      spriteID: 1c5bae70b5753154da0c30b71c15b27c
+      internalID: 297206614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Red_and_green_mark2x_1
+      name: Button@2x_1
       rect:
         serializedVersion: 2
-        x: 414
-        y: 0
-        width: 356
-        height: 647
+        x: 776
+        y: 10
+        width: 687
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 29, y: 16, z: 28, w: 14}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55dd71737e2d0b24ea488d21858bed35
-      internalID: -186115704
+      spriteID: 998b585617a06c24fbfbf25e565571b9
+      internalID: -757010246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button@2x_2
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 0
+        width: 697
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 33, y: 23, z: 42, w: 27}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1456a2deb2cd8454f84c8544a26efeef
+      internalID: 529930759
       vertices: []
       indices: 
       edges: []
@@ -154,7 +214,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: f625b514111baf248b32e9e702fe1529
     internalID: 0
     vertices: []
     indices: 
@@ -162,10 +222,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Red_and_green_mark2x_0: 687089456
-      Red_and_green_mark2x_1: -186115704
-      Red_and_green_mark2x_2: 1773508571
-      Red_and_green_mark2x_3: -2064247565
+      Button@2x_0: 297206614
+      Button@2x_1: -757010246
+      Button@2x_2: 529930759
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
