@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class InputToChangeScene :MonoBehaviour
 {
     public string SceneName;
+    public GameObject ObjectTrigger;
 
     private bool TargetInput;
 
@@ -14,7 +15,18 @@ public class InputToChangeScene :MonoBehaviour
     {
         GameManager GM = FindObjectOfType<GameManager>();
         TargetInput = false;
-        GM.UpcomingScene = "";
+        if ( GM != null)
+        {
+            GM.UpcomingScene = "";
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other.tag);
+        if (other.CompareTag("Start"))
+        {
+            TargetInput = true;
+        }
     }
     public void Input()
     {

@@ -8,6 +8,7 @@ public class MenuManager : MonoBehaviour
     public void ExitNow()
     {
         Application.Quit();
+        Debug.Log("Game is exiting");
     }
 
 }
