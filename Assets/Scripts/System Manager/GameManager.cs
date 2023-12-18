@@ -36,4 +36,8 @@ public class GameManager :MonoBehaviour
             SceneManager.LoadScene(UpcomingScene);
         }
     }
+
+    public bool mini1Win = false;
+    public bool mini2Win = false;
+    public bool mini3Win= false;
 }

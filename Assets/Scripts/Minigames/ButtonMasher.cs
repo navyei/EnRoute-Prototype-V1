@@ -12,19 +12,21 @@ public class ButtonMasher : MonoBehaviour
     public float winThreshold = 0.75f;
     private float timeRemain = 10f;
     private float startDelay = 1f;
-    private bool _gameEnded = false;
-    private bool _gameWin = false;
+    private bool gameEnded ;
+    private GameManager gameManager;
+
 
     void Start()
     {
         gameOverText.enabled = false;
         gameWinText.enabled = false;
+        gameManager = GameObject.FindObjectOfType<GameManager>();
         progressBar.value = 0.1f; // Ensure game over text is hidden initially
     }
 
     void Update()
     {
-        if (_gameEnded)
+        if (gameEnded)
         {
             return; // Stop updating the game if it's over
         }
@@ -48,10 +50,12 @@ public class ButtonMasher : MonoBehaviour
             if (progressBar.value >= winThreshold)
             {
                 GameWin();
+                gameManager.mini3Win = true;
             }
             else
             {
                 EndGame();
+                gameManager.mini3Win = false;
             }
             
         }
@@ -60,15 +64,14 @@ public class ButtonMasher : MonoBehaviour
 
     void EndGame()
     {
-        _gameEnded = true;
+        gameEnded = true;
         gameOverText.enabled = true; // Show the game over text
         // Optionally, you can also disable the spacebar input here
     }
 
     void GameWin()
     {
-        _gameWin = true;
-        _gameEnded = true;
+        gameEnded = true;
         gameWinText.enabled = true;
     }
 }

@@ -2,14 +2,14 @@ using UnityEngine;
 using System.Collections.Generic;
 using TMPro;
 
-public class Minigame : MonoBehaviour
+public class Mini2:MonoBehaviour
 {
     public float timeLimit = 20f;
     private float timer;
     public TextMeshProUGUI gameWinText;
     public TextMeshProUGUI gameLoseText;
     public List<DraggableCar> cars;
-
+    private GameManager gameManager;
     void Start()
     {
         timer = timeLimit;
@@ -34,11 +34,13 @@ public class Minigame : MonoBehaviour
                 // Lose condition
                 Debug.Log("You lose!");
                 gameLoseText.enabled = true;
+                gameManager.mini2Win = false;
                 return;
             }
         }
         // Win condition
         Debug.Log("You win!");
         gameWinText.enabled = true;
+        gameManager.mini2Win = true;
     }
 }
