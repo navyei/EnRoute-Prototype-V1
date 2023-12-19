@@ -18,6 +18,10 @@ public class PauseButton : MonoBehaviour
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
     }
+    public void Home()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
 
 
