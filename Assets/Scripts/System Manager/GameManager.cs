@@ -63,7 +63,16 @@ public class GameManager :MonoBehaviour
         {
             SceneChangeInput = false;
         }
+
+        if (mini1Win = true)
+        {
+            Debug.Log("Minigame 1 win");
+        }
     }
+
+    public static bool mini1Win = false;
+    public static bool mini2Win = false;
+    public static bool mini3Win = false;
     void LoadScenesOnce()
     {
         foreach (string s in InGameScenes)
