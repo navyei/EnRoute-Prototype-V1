@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,7 +16,6 @@ public class GameManager :MonoBehaviour
             {
                 GameObject managerObject = new GameObject("GameManager");
                 instance = managerObject.AddComponent<GameManager>();
-                DontDestroyOnLoad(managerObject);
             }
             return instance;
         }
@@ -26,20 +26,41 @@ public class GameManager :MonoBehaviour
     public int RequiredScore;
 
     public int CO2_Count;
+
     public string UpcomingScene;
+    public string[] InGameScenes;
+
     public bool SceneChangeInput = false;
-    public bool InGame = false;
+    public bool LoadMultiple = false;
     public bool MinigameWin = false;
+
+    private bool Loaded = false;
+    private void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
 
     private void FixedUpdate()
     {
-        if ( (Score == RequiredScore) || SceneChangeInput && !InGame) 
+        if ( (Score == RequiredScore) || SceneChangeInput && !LoadMultiple) 
         {
             SceneManager.LoadScene(UpcomingScene);
         }
-        else if ((Score == RequiredScore) || SceneChangeInput && InGame)
+        else if ( (Score == RequiredScore) || SceneChangeInput && LoadMultiple && !Loaded)
         {
-            SceneManager.LoadScene(UpcomingScene, LoadSceneMode.Additive);
+            LoadScenesOnce();
         }
+        if (SceneChangeInput)
+        {
+            SceneChangeInput = false;
+        }
+    }
+    void LoadScenesOnce()
+    {
+        foreach (string s in InGameScenes)
+        {
+            SceneManager.LoadScene(s, LoadSceneMode.Additive);
+        }
+        Loaded = true;
     }
 }

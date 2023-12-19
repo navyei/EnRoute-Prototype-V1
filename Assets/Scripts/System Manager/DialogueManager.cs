@@ -14,12 +14,10 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         Sentences = new Queue<string>();
-        DialoguePopup.SetActive(false);
     }
 
     public void StartDialogue(Dialogue Dialogue)
     {
-        DialoguePopup.SetActive(true);
         Name.text = Dialogue.Name;
         Animator.SetBool("Talking", true);
         Sentences.Clear();
@@ -30,6 +28,7 @@ public class DialogueManager : MonoBehaviour
         }
         DisplayNextSentence();
     }
+
     public void DisplayNextSentence()
     {
         if (Sentences.Count == 0)
@@ -38,8 +37,20 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         string Sentence = Sentences.Dequeue();
-        Dialogue.text = Sentence;
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(Sentence));
     }
+
+    IEnumerator TypeSentence(string Sentence)
+    {
+        Dialogue.text = "";
+        foreach (char letter in Sentence.ToCharArray())
+        {
+            Dialogue.text += letter;
+            yield return null;
+        }
+    }
+
     void EndDialogue()
     {
         Animator.SetBool("Talking", false);

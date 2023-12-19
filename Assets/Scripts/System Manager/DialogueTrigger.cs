@@ -10,7 +10,6 @@ public class DialogueTrigger : MonoBehaviour
     public GameObject TalkIndicator;
 
     private Color OriginalColor;
-    private bool IsPressed = false;
 
     private void Start()
     {
@@ -37,11 +36,6 @@ public class DialogueTrigger : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         TalkIndicator.SetActive(true);
-    }
-
-    public void ButtonInput()
-    {
-        IsPressed = true;
     }
 
     public void TriggerDialogue()

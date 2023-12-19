@@ -269,8 +269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2880f4148433488b971626fe889fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: LevelSelect
+  NextScene: LevelSelect
   ObjectTrigger: {fileID: 0}
+  LoadMultiple: 0
 --- !u!1 &351563875
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,8 +305,14 @@ MonoBehaviour:
   RequiredScore: 20
   CO2_Count: 0
   UpcomingScene: 
+  InGameScenes:
+  - Station
+  - Navigation
+  - Minigame1
+  - Minigame2
+  - Minigame3
   SceneChangeInput: 0
-  InGame: 0
+  LoadMultiple: 0
   MinigameWin: 0
 --- !u!4 &351563877
 Transform:

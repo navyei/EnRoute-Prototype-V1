@@ -24,13 +24,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Navigation.unity
     guid: 829ab0ebbd7a27a4cacfc4827f9800b6
   - enabled: 1
-    path: Assets/Scenes/Minigame 1.unity
+    path: Assets/Scenes/Minigame1.unity
     guid: bb56b4376dd3a534f9301f3624182c9e
   - enabled: 1
-    path: Assets/Scenes/MiniGame2.unity
+    path: Assets/Scenes/Minigame2.unity
     guid: 869fde6301aa4674887dc6fee5ed91eb
   - enabled: 1
-    path: Assets/Scenes/Minigame3_ButtonMash.unity
+    path: Assets/Scenes/Minigame3.unity
     guid: 2206d0c565f401441a9c2ec886e1eb78
   - enabled: 1
     path: Assets/Scenes/Stage.unity
