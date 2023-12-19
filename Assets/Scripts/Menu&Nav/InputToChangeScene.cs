@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class InputToChangeScene :MonoBehaviour
 {
     public string NextScene;
-    public GameObject ObjectTrigger;
-    public bool LoadMultiple;
+    public GameObject TriggerInput;
+    public bool ChangeInGameView;
 
     private bool TargetInput;
 
@@ -30,26 +30,17 @@ public class InputToChangeScene :MonoBehaviour
         }
     }
 
-    public void Input()
-    {
-        TargetInput = true;
-    }
-
     private void Update()
     {
         GameManager GM = FindObjectOfType<GameManager>();
-        if (TargetInput && GM != null)
+        if (TargetInput)
         {
-            if (LoadMultiple)
-            {
-                GM.LoadMultiple = true;
-                GM.UpcomingScene = NextScene;
-            }
-            else
-            {
-                GM.UpcomingScene = NextScene;
-            }
+            GM.UpcomingScene = NextScene;
             GM.SceneChangeInput = true;
         }
+    }
+    public void Input()
+    {
+        TargetInput = true;
     }
 }

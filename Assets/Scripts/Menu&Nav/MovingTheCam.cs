@@ -12,12 +12,12 @@ public class MovingTheCam : MonoBehaviour
 
     private float MouseX;
 	private float MouseY;
-    private CinemachineOrbitalTransposer OrbTrans;
+    private static CinemachineOrbitalTransposer OrbTrans;
 
     void Start()
     {
         OrbTrans = VirtualCamera.GetCinemachineComponent<CinemachineOrbitalTransposer>();
-        for (int i = 0;i < VCams.Length; i++)
+        for (int i = 1;i < VCams.Length; i++)
         {
             VCams[i].Priority = i;
         }
@@ -50,5 +50,13 @@ public class MovingTheCam : MonoBehaviour
             OrbTrans.m_XAxis.m_InputAxisName = "";
             OrbTrans.m_XAxis.m_InputAxisValue = 0f;
         }
+    }
+    public void NextCamera()
+    {
+        bool NextCameraInput = true;
+    }
+    public void PrevCamera()
+    {
+        bool PrevCameraInput = true;
     }
 }
