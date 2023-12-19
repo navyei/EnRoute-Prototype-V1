@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class GameManager :MonoBehaviour
 {
@@ -42,14 +43,22 @@ public class GameManager :MonoBehaviour
 
     private void FixedUpdate()
     {
+        Scene currentScene = SceneManager.GetActiveScene();
         if ( (Score == RequiredScore) || SceneChangeInput && !LoadMultiple) 
         {
             SceneManager.LoadScene(UpcomingScene);
+            Loaded = false;
         }
+
         else if ( (Score == RequiredScore) || SceneChangeInput && LoadMultiple && !Loaded)
         {
-            LoadScenesOnce();
+            SceneManager.LoadSceneAsync(UpcomingScene);
+            if (currentScene.name == "Station")
+            {
+                LoadScenesOnce();
+            }
         }
+
         if (SceneChangeInput)
         {
             SceneChangeInput = false;
@@ -60,6 +69,10 @@ public class GameManager :MonoBehaviour
         foreach (string s in InGameScenes)
         {
             SceneManager.LoadScene(s, LoadSceneMode.Additive);
+            if (s != "Navigation")
+            {
+                SceneManager.UnloadSceneAsync(s);
+            }
         }
         Loaded = true;
     }

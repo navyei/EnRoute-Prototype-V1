@@ -306,11 +306,7 @@ MonoBehaviour:
   CO2_Count: 0
   UpcomingScene: 
   InGameScenes:
-  - Station
   - Navigation
-  - Minigame1
-  - Minigame2
-  - Minigame3
   SceneChangeInput: 0
   LoadMultiple: 0
   MinigameWin: 0

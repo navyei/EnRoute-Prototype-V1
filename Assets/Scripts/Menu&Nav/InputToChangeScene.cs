@@ -43,6 +43,7 @@ public class InputToChangeScene :MonoBehaviour
             if (LoadMultiple)
             {
                 GM.LoadMultiple = true;
+                GM.UpcomingScene = NextScene;
             }
             else
             {

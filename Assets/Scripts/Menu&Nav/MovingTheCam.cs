@@ -8,6 +8,7 @@ public class MovingTheCam : MonoBehaviour
     public float CamSpeed;
     public Camera Camera;
     public CinemachineVirtualCamera VirtualCamera;
+    public CinemachineVirtualCameraBase[] VCams;
 
     private float MouseX;
 	private float MouseY;
@@ -16,6 +17,10 @@ public class MovingTheCam : MonoBehaviour
     void Start()
     {
         OrbTrans = VirtualCamera.GetCinemachineComponent<CinemachineOrbitalTransposer>();
+        for (int i = 0;i < VCams.Length; i++)
+        {
+            VCams[i].Priority = i;
+        }
     }
 
     void Update()
