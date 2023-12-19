@@ -302,8 +302,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2880f4148433488b971626fe889fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Navigation
+  NextScene: 
   ObjectTrigger: {fileID: 0}
+  LoadMultiple: 0
 --- !u!114 &213334374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1584,6 +1585,7 @@ MonoBehaviour:
   CamSpeed: 75
   Camera: {fileID: 963194227}
   VirtualCamera: {fileID: 1176047652}
+  VCams: []
 --- !u!4 &1009781839
 Transform:
   m_ObjectHideFlags: 0
@@ -1651,8 +1653,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2880f4148433488b971626fe889fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Navigation
+  NextScene: 
   ObjectTrigger: {fileID: 0}
+  LoadMultiple: 0
 --- !u!114 &1014744116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1903,8 +1906,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2880f4148433488b971626fe889fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: MainMenu
+  NextScene: MainMenu
   ObjectTrigger: {fileID: 0}
+  LoadMultiple: 0
 --- !u!114 &1087634877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2534,8 +2538,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2880f4148433488b971626fe889fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: 
+  NextScene: 
   ObjectTrigger: {fileID: 0}
+  LoadMultiple: 0
 --- !u!114 &1636373919
 MonoBehaviour:
   m_ObjectHideFlags: 0
