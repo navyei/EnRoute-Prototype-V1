@@ -208,8 +208,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 88522428}
-        m_TargetAssemblyTypeName: InputToChangeScene, Assembly-CSharp
-        m_MethodName: Input
+        m_TargetAssemblyTypeName: MultiPurposeInput, Assembly-CSharp
+        m_MethodName: SceneChangeInput
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -270,8 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: LevelSelect
-  ObjectTrigger: {fileID: 0}
-  LoadMultiple: 0
+  TargetTag: []
 --- !u!1 &351563875
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,15 +300,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ce35196a33470d4cb89d8b8083ca84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InGame: 0
   Score: 0
   RequiredScore: 20
   CO2_Count: 0
-  UpcomingScene: 
-  InGameScenes:
-  - Navigation
-  SceneChangeInput: 0
-  LoadMultiple: 0
   MinigameWin: 0
+  Camera: {fileID: 0}
+  CameraDollies: []
 --- !u!4 &351563877
 Transform:
   m_ObjectHideFlags: 0

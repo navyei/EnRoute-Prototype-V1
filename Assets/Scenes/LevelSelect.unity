@@ -269,8 +269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: MainMenu
-  TriggerInput: {fileID: 0}
-  ChangeInGameView: 0
+  TargetTag: []
 --- !u!1 &119162802
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,8 +430,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 450259682}
-        m_TargetAssemblyTypeName: InputToChangeScene, Assembly-CSharp
-        m_MethodName: Input
+        m_TargetAssemblyTypeName: MultiPurposeInput, Assembly-CSharp
+        m_MethodName: SceneChangeInput
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -493,8 +492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: Gameplay
-  TriggerInput: {fileID: 0}
-  ChangeInGameView: 0
+  TargetTag: []
 --- !u!1 &1191873926
 GameObject:
   m_ObjectHideFlags: 0

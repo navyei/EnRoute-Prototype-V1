@@ -8,47 +8,12 @@ public class MultiPurposeInput :MonoBehaviour
 {
     public string NextScene;
     public string[] TargetTag;
-    public GameObject pauseMenu;
-
-    private bool TargetInput;
-
-    private void Start()
-    {
-        GameManager.UpcomingScene = "";
-        GameManager.SceneChangeInput = false;
-    }
-    private void Update()
-    {
-        if (TargetInput)
-        {
-            GameManager.UpcomingScene = NextScene;
-            GameManager.SceneChangeInput = true;
-        }
-    }
-
-    //Input for Buttons
+    
+    //Input with Buttons
     public void SceneChangeInput()
     {
-        TargetInput = true;
-    }
-
-    //Pause Menu Utilities
-    public void Resume()
-    {
-        Time.timeScale = 1;
-        pauseMenu.SetActive(false);
-    }
-
-    public void Pause()
-    {
-        Time.timeScale = 0;
-        pauseMenu.SetActive(true);
-    }
-
-    public void ToMainMenu()
-    {
-        Time.timeScale = 1;
-        TargetInput = true;
+        GameManager.UpcomingScene = NextScene;
+        GameManager.SceneChangeInput = true;
     }
 
     //Detect Input with Trigger
@@ -58,7 +23,7 @@ public class MultiPurposeInput :MonoBehaviour
         {
             if (other.CompareTag(Tag))
             {
-                TargetInput = true;
+                SceneChangeInput();
             }
         }
         

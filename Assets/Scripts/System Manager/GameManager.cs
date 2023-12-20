@@ -37,6 +37,12 @@ public class GameManager :MonoBehaviour
 
     private void Start()
     {
+        GameManager.UpcomingScene = "";
+        GameManager.SceneChangeInput = false;
+        Scene CurrentScene = SceneManager.GetActiveScene();
+        if (CurrentScene.name == "Gameplay") InGame = true;
+        else InGame = false;
+
         //In-Game Camera Switching Pt.1 (Do not change)
         if (InGame)
         {
