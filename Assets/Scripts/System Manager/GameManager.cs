@@ -1,7 +1,6 @@
 using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -24,26 +23,21 @@ public class GameManager :MonoBehaviour
         
     }
 
+    public static string UpcomingScene;
+    public static bool SceneChangeInput;
+    public bool InGame;
+
     public int Score;
     public int RequiredScore;
     public int CO2_Count;
-
-    public static string UpcomingScene;
-
-    public static bool SceneChangeInput;
-    public bool InGame;
     public bool MinigameWin;
 
     public Camera Camera;
     public CinemachineVirtualCameraBase[] CameraDollies;
 
-    private void Awake()
-    {
-        DontDestroyOnLoad(this);
-    }
-
     private void Start()
     {
+        //In-Game Camera Switching Pt.1 (Do not change)
         if (InGame)
         {
             for (int i = 1; i < CameraDollies.Length; i++)
@@ -51,18 +45,14 @@ public class GameManager :MonoBehaviour
                 CameraDollies[i].Priority = i;
             }
         }
+        //End of In-Game Camera Switching Pt.1
     }
     private void FixedUpdate()
     {
         Scene currentScene = SceneManager.GetActiveScene();
-        if ( (Score == RequiredScore) || SceneChangeInput ) 
+        if (SceneChangeInput) 
         {
             SceneManager.LoadScene(UpcomingScene);
-        }
-
-        if (SceneChangeInput)
-        {
-            SceneChangeInput = false;
         }
 
         if (mini1Win == true)
@@ -74,7 +64,19 @@ public class GameManager :MonoBehaviour
     public static bool mini1Win = false;
     public static bool mini2Win = false;
     public static bool mini3Win = false;
-    
+
+    //In-Game Camera Switching Pt.2 (Do not change)
+    public void PrevCamera()
+    {
+        SwitchCam(0);
+        Camera.orthographic = false;
+    }
+    public void NextCamera()
+    {
+        SwitchCam(1);
+        Camera.orthographic = true;
+    }
+
     void SwitchCam(int IndexNumber)
     {
         if (IndexNumber >= 0 && IndexNumber < CameraDollies.Length)
@@ -86,15 +88,5 @@ public class GameManager :MonoBehaviour
             CameraDollies[IndexNumber].gameObject.SetActive(true);
         }
     }
-
-    public void NextCamera()
-    {
-        SwitchCam(1);
-        Camera.orthographic = true;
-    }
-    public void PrevCamera()
-    {
-        SwitchCam(0);
-        Camera.orthographic = false;
-    }
+    //End of In-Game Camera Switching Pt.2
 }
