@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657755, g: 0.4964127, b: 0.57481825, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -408,7 +408,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 231289085}
   - {fileID: 465106149}
   - {fileID: 1376296064}
   - {fileID: 1896758845}
@@ -6534,12 +6533,12 @@ Transform:
   m_GameObject: {fileID: 231289083}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -174.9, y: 67.2, z: -7}
+  m_LocalPosition: {x: -499.9, y: 67.2, z: 22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1653114886}
-  m_Father: {fileID: 124845023}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &231289086
 MonoBehaviour:
@@ -26769,10 +26768,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 668848829}
-  - {fileID: 1176047653}
-  - {fileID: 963194228}
-  - {fileID: 1623096649}
   - {fileID: 1009781839}
   - {fileID: 7748301481793397924}
   - {fileID: 1033295837}
@@ -27160,11 +27155,10 @@ MonoBehaviour:
   Score: 0
   RequiredScore: 20
   CO2_Count: 0
-  UpcomingScene: 
-  InGameScenes: []
-  SceneChangeInput: 0
-  LoadMultiple: 0
+  InGame: 0
   MinigameWin: 0
+  Camera: {fileID: 0}
+  CameraDollies: []
 --- !u!4 &668848829
 Transform:
   m_ObjectHideFlags: 0
@@ -27178,7 +27172,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 495296846}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &668848830
 MonoBehaviour:
@@ -28001,7 +27995,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 495296846}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
@@ -28080,10 +28074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CamSpeed: 75
   Camera: {fileID: 963194227}
-  VirtualCamera: {fileID: 1176047652}
-  VCams:
-  - {fileID: 1176047652}
-  - {fileID: 231289084}
+  Dolly: {fileID: 0}
 --- !u!4 &1009781839
 Transform:
   m_ObjectHideFlags: 0
@@ -28665,7 +28656,7 @@ Transform:
   m_Children:
   - {fileID: 788921183}
   - {fileID: 315210712}
-  m_Father: {fileID: 495296846}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1247755662
 GameObject:
@@ -29759,7 +29750,7 @@ RectTransform:
   - {fileID: 869956441}
   - {fileID: 1928809453}
   - {fileID: 54712397537566003}
-  m_Father: {fileID: 495296846}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -32036,5 +32027,10 @@ GameObject:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 668848829}
+  - {fileID: 1176047653}
+  - {fileID: 231289085}
+  - {fileID: 963194228}
+  - {fileID: 1623096649}
   - {fileID: 495296846}
   - {fileID: 124845023}
