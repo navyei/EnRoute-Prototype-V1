@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelect.unity
     guid: 7d407d42e68c0744082927e7a5233bc9
   - enabled: 1
-    path: Assets/Scenes/Station.unity
+    path: Assets/Scenes/Gameplay.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Minigame1.unity
     guid: bb56b4376dd3a534f9301f3624182c9e
   - enabled: 1
-    path: Assets/Scenes/Minigame2.unity
+    path: Assets/Scenes/MiniGame2.unity
     guid: 869fde6301aa4674887dc6fee5ed91eb
   - enabled: 1
     path: Assets/Scenes/Minigame3.unity

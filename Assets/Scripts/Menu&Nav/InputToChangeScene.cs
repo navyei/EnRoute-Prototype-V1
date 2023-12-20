@@ -18,7 +18,7 @@ public class InputToChangeScene :MonoBehaviour
         TargetInput = false;
         if ( GM != null)
         {
-            GM.UpcomingScene = "";
+            GameManager.UpcomingScene = "";
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -32,11 +32,10 @@ public class InputToChangeScene :MonoBehaviour
 
     private void Update()
     {
-        GameManager GM = FindObjectOfType<GameManager>();
         if (TargetInput)
         {
-            GM.UpcomingScene = NextScene;
-            GM.SceneChangeInput = true;
+            GameManager.UpcomingScene = NextScene;
+            GameManager.SceneChangeInput = true;
         }
     }
     public void Input()

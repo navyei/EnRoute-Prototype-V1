@@ -269,8 +269,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: MainMenu
-  ObjectTrigger: {fileID: 0}
-  LoadMultiple: 0
+  TriggerInput: {fileID: 0}
+  ChangeInGameView: 0
 --- !u!1 &119162802
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,9 +492,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2880f4148433488b971626fe889fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: Station
-  ObjectTrigger: {fileID: 0}
-  LoadMultiple: 1
+  NextScene: Gameplay
+  TriggerInput: {fileID: 0}
+  ChangeInGameView: 0
 --- !u!1 &1191873926
 GameObject:
   m_ObjectHideFlags: 0
