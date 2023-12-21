@@ -15,8 +15,8 @@ public class Timer : MonoBehaviour
         }
         else
         {
-            // Handle timer expiration (e.g., change scene, end game)
-            SceneManager.LoadScene("Navigation");
+            GameManager.UpcomingScene = "Gameplay";
+            GameManager.SceneChangeInput = true;
         }
     }
 }

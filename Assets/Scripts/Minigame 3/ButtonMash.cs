@@ -75,8 +75,7 @@ public class ButtonMasher : MonoBehaviour
     {
         GameManager.mini3Win = false;
         _gameEnded = true;
-        gameOverText.enabled = true; // Show the game over text
-        // Optionally, you can also disable the spacebar input here
+        gameOverText.enabled = true; 
     }
 
     void GameWin()
