@@ -2,17 +2,50 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlaySound : MonoBehaviour
+public class AudioManager : MonoBehaviour
 {
-    public AudioSource soundPlayer;
+    private static AudioManager instance;
 
-    // Update is called once per frame
-    void Update()
+    // Reference to the AudioSource component
+    private AudioSource audioSource;
+
+    // Create a singleton pattern to ensure only one instance exists
+    public static AudioManager Instance
     {
-        
+        get
+        {
+            if (instance == null)
+            {
+                instance = FindObjectOfType<AudioManager>();
+                if (instance == null)
+                {
+                    GameObject audioManagerObject = new GameObject("AudioManager");
+                    instance = audioManagerObject.AddComponent<AudioManager>();
+                }
+            }
+            return instance;
+        }
     }
-    public void playThisSoundEffect()
-    { 
-        soundPlayer.Play(); 
+
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(this.gameObject); // Prevent this GameObject from being destroyed when scenes change
+
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    // Play a sound effect
+    public void PlaySoundEffect(AudioClip clip)
+    {
+        audioSource.clip = clip;
+        audioSource.Play();
     }
 }
+

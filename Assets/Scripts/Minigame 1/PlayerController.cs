@@ -3,10 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
-
+    public TextMeshProUGUI gameOverText;
+    public TextMeshProUGUI gameWinText;
+    
     private GameManager gameManager;
     public float movementSpeed = 5.0f;
     private float timeRemain = 20f;
@@ -28,12 +31,12 @@ public class PlayerController : MonoBehaviour
         // Check for win condition (example: reaching a certain position)
         if (timeRemain <= 0) // Example condition
         {
-            WinGame();
+            WinGame1();
         }
         //if (gameEnded = true)
-        {
-            return;
-        }
+        //{
+           // return;
+        //}
         
     }
 
@@ -47,12 +50,12 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
 
             // Trigger lose condition
-            LoseGame();
+            LoseGame1();
         }
     }
     
 
-    void LoseGame()
+    void LoseGame1()
     {
 
         Debug.Log("destected--------------");
@@ -62,17 +65,19 @@ public class PlayerController : MonoBehaviour
         Debug.Log("destected-------------1");
         // For now, we'll just reload the navigation scene
         GameManager.mini1Win = false;
+        gameOverText.enabled = true; 
         Debug.Log("destected-------------2");
         SceneManager.LoadScene("Navigation");
         Debug.Log("MiniGame 1 lose");
         
     }
 
-    void WinGame()
+    void WinGame1()
     {
         gameEnded = true;
         GameManager.mini1Win = true;
-        SceneManager.LoadScene("Navigation");
+        gameOverText.enabled = true; 
+        //SceneManager.LoadScene("Navigation");
         Debug.Log("MiniGame 1 Win");
     }
 }
