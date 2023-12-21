@@ -18,7 +18,7 @@ public class VehicleDragNDrop : MonoBehaviour
         {
             Hovering = true;
         }
-        else if (Input.GetKeyUp(KeyCode.Mouse0))
+        else
         {
             Hovering = false;
         }
