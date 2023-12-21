@@ -1,4 +1,5 @@
 using Cinemachine;
+using Cinemachine.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,8 +7,9 @@ using UnityEngine;
 public class MovingTheCam : MonoBehaviour
 {
     public float CamSpeed;
+
     public Camera Camera;
-    public CinemachineVirtualCamera VirtualCamera;
+    public CinemachineVirtualCamera Dolly;
 
     private float MouseX;
 	private float MouseY;
@@ -15,16 +17,16 @@ public class MovingTheCam : MonoBehaviour
 
     void Start()
     {
-        OrbTrans = VirtualCamera.GetCinemachineComponent<CinemachineOrbitalTransposer>();
+        OrbTrans = Dolly.GetCinemachineComponent<CinemachineOrbitalTransposer>();
     }
 
     void Update()
-	{
+    {
         MouseX = Input.GetAxis("Mouse X");
         MouseY = Input.GetAxis("Mouse Y");
         Vector3 CamFwrd = Camera.main.transform.forward; CamFwrd.y = 0f; CamFwrd.Normalize();
         Vector3 CamRght = Camera.main.transform.right; CamRght.y = 0f; CamRght.Normalize();
-        Vector3 Movement = CamFwrd*MouseY + CamRght*MouseX;
+        Vector3 Movement = CamFwrd * MouseY + CamRght * MouseX;
 
         if (Input.GetKey(KeyCode.Mouse1))
         {

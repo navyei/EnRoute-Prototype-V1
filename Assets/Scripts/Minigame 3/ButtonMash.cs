@@ -16,9 +16,11 @@ public class ButtonMasher : MonoBehaviour
     private float startDelay = 1f;
     private bool _gameEnded = false;
     private bool _gameStarted = false; // Added variable to track game start
+    private GameManager gameManager;
 
     void Start()
     {
+        gameManager = GameObject.FindObjectOfType<GameManager>();
         gameOverText.enabled = false;
         gameWinText.enabled = false;
         progressBar.value = 0.1f; // Ensure game over text is hidden initially
@@ -71,6 +73,7 @@ public class ButtonMasher : MonoBehaviour
 
     void EndGame()
     {
+        GameManager.mini3Win = false;
         _gameEnded = true;
         gameOverText.enabled = true; // Show the game over text
         // Optionally, you can also disable the spacebar input here
@@ -78,6 +81,7 @@ public class ButtonMasher : MonoBehaviour
 
     void GameWin()
     {
+        GameManager.mini3Win = true;
         _gameEnded = true;
         gameWinText.enabled = true;
     }

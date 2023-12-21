@@ -139,16 +139,3 @@ public class DynamicLineDrawer : MonoBehaviour
         return ray.origin + ray.direction * distance;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
