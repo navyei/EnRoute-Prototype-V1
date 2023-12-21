@@ -8,10 +8,12 @@ public class TriggerScript : MonoBehaviour
     public Dialogue Dialogue;
     public GameObject DialogueIndicator;
     public float IndicatorCooldown = 5f;
+    public GameObject AfterDialogueTarget;
     public Color HoverColor;
 
     private Color OriginalColor;
     private bool InDialogue;
+    private bool FinishDialogue;
 
     private void Start()
     {
@@ -37,14 +39,19 @@ public class TriggerScript : MonoBehaviour
             if (MouseHover() && !Input.GetKey(KeyCode.Mouse1) && !Input.GetKey(KeyCode.Mouse2))
             {
                 GetComponent<SpriteRenderer>().color = HoverColor;
-                if (Input.GetKeyDown(KeyCode.Mouse0) && DialogueIndicator.activeSelf)
+                if (Input.GetKeyDown(KeyCode.Mouse0) && DialogueIndicator.activeSelf && !FinishDialogue)
                 {
                     TriggerDialogue();
                     InDialogue = true;
                     FindObjectOfType<DialogueManager>().TriggerAdded = false;
+                    FinishDialogue = true;
                 }
             }
             else GetComponent<SpriteRenderer>().color = OriginalColor;
+        }
+        if (FinishDialogue)
+        {
+
         }
     }
     public void TriggerDialogue()
