@@ -4,7 +4,7 @@ using System.Threading;
 using UnityEngine;
 using Cinemachine;
 
-public class PauseMenuScript : MonoBehaviour
+public class ButtonMenuScript : MonoBehaviour
 {
     public GameObject pauseMenu;
 
@@ -26,6 +26,11 @@ public class PauseMenuScript : MonoBehaviour
         Time.timeScale = 1;
         GameManager.UpcomingScene = "MainMenu";
         GameManager.SceneChangeInput = true;
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Game is exiting");
     }
 }
 

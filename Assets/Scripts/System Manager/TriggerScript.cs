@@ -12,14 +12,21 @@ public class TriggerScript : MonoBehaviour
 
     private Color OriginalColor;
     private bool InDialogue;
+
     private void Start()
     {
         OriginalColor = GetComponent<SpriteRenderer>().color;
         if (IsNPC)
         {
-            Debug.LogFormat("Make sure that the object has a Dialogue Indicator");
-            DialogueIndicator.SetActive(false);
-            StartCoroutine(WaitToTalk());
+            if (DialogueIndicator == null)
+            {
+                Debug.Log("NPC doesn't have Indicator!");
+            }
+            else
+            {
+                DialogueIndicator.SetActive(false);
+                StartCoroutine(WaitToTalk());
+            }
         }
     }
 
@@ -40,6 +47,11 @@ public class TriggerScript : MonoBehaviour
             else GetComponent<SpriteRenderer>().color = OriginalColor;
         }
     }
+    public void TriggerDialogue()
+    {
+        FindObjectOfType<DialogueManager>().StartDialogue(Dialogue);
+    }
+
     bool MouseHover()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -51,11 +63,6 @@ public class TriggerScript : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(IndicatorCooldown);
         DialogueIndicator.SetActive(true);
-    }
-
-    public void TriggerDialogue()
-    {
-        FindObjectOfType<DialogueManager>().StartDialogue(Dialogue);
     }
 
     public void IndicatorOff()

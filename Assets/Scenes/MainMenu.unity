@@ -659,8 +659,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1495718520}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: ExitNow
+        m_TargetAssemblyTypeName: ButtonMenuScript, Assembly-CSharp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -828,9 +828,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1495718518}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54becb0250f6d0047a9c9c1cd0e61b37, type: 3}
+  m_Script: {fileID: 11500000, guid: 1eb68ea61939e3443b29de6db6fb6f5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}
 --- !u!1 &1701264758
 GameObject:
   m_ObjectHideFlags: 0
