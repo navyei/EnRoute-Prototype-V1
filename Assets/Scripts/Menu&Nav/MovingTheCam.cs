@@ -36,7 +36,7 @@ public class MovingTheCam : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.Mouse2))
         {
-            transform.Translate(Movement * CamSpeed * Time.deltaTime, Space.World);
+            transform.Translate(Movement * CamSpeed * Time.deltaTime * -1, Space.World);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }

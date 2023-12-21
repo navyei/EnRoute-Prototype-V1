@@ -13,7 +13,7 @@ public class VehicleSpawn : MonoBehaviour
         if (!IsSpawner && SettingsApplied)
         {
             gameObject.layer = LayerNumber;
-            GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
+            this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
             SettingsApplied = true;
         }
     }
