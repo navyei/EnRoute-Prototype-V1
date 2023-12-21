@@ -37,7 +37,7 @@ public class TriggerScript : MonoBehaviour
             if (MouseHover() && !Input.GetKey(KeyCode.Mouse1) && !Input.GetKey(KeyCode.Mouse2))
             {
                 GetComponent<SpriteRenderer>().color = HoverColor;
-                if (Input.GetKey(KeyCode.Mouse0) && DialogueIndicator.activeSelf)
+                if (Input.GetKeyDown(KeyCode.Mouse0) && DialogueIndicator.activeSelf)
                 {
                     TriggerDialogue();
                     InDialogue = true;
