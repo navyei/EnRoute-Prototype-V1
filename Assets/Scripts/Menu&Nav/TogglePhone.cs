@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TogglePhone : MonoBehaviour
@@ -8,6 +6,6 @@ public class TogglePhone : MonoBehaviour
 
     public void ToggleInput()
     {
-        Animator.SetBool("PhoneToggled",!Animator.GetBool("PhoneToggled"));
+        Animator.SetBool("PhoneToggled", !Animator.GetBool("PhoneToggled"));
     }
 }

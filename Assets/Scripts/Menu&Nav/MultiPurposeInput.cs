@@ -1,19 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
-public class MultiPurposeInput :MonoBehaviour
+public class MultiPurposeInput : MonoBehaviour
 {
-    public string NextScene;
+    public bool UsedForScenes;
+    public bool UsedForScore;
+    public int RequiredScore;
     public string[] TargetTag;
-    
+    public string NextScene;
+
+    public int Score;
     //Input with Buttons
     public void SceneChangeInput()
     {
         GameManager.UpcomingScene = NextScene;
         GameManager.SceneChangeInput = true;
+    }
+    public void ScoreCounter()
+    {
+        GameManager.Score++;
     }
 
     //Detect Input with Trigger
@@ -23,10 +27,17 @@ public class MultiPurposeInput :MonoBehaviour
         {
             if (other.CompareTag(Tag))
             {
-                SceneChangeInput();
+                if (UsedForScenes)
+                {
+                    SceneChangeInput();
+                }
+                if (UsedForScore)
+                {
+                    ScoreCounter();
+                    other.gameObject.SetActive(false);
+                }
             }
         }
-        
     }
 
 }

@@ -280,8 +280,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2880f4148433488b971626fe889fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: MainMenu
+  UsedForScenes: 0
+  UsedForScore: 0
+  RequiredScore: 0
   TargetTag: []
+  NextScene: MainMenu
+  Score: 0
 --- !u!1 &119162802
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +303,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &119162803
 RectTransform:
   m_ObjectHideFlags: 0
@@ -441,18 +445,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 450259682}
-        m_TargetAssemblyTypeName: MultiPurposeInput, Assembly-CSharp
-        m_MethodName: SceneChangeInput
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 956462022}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: PlaySoundEffect
@@ -460,6 +452,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: 6fe7a7472f0e4b54195103d8b6b70126, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 450259682}
+        m_TargetAssemblyTypeName: MultiPurposeInput, Assembly-CSharp
+        m_MethodName: SceneChangeInput
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -515,8 +519,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2880f4148433488b971626fe889fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: Gameplay
+  UsedForScenes: 0
+  UsedForScore: 0
+  RequiredScore: 0
   TargetTag: []
+  NextScene: Gameplay
+  Score: 0
 --- !u!1 &956462021
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,6 +763,7 @@ RectTransform:
   - {fileID: 1480697813}
   - {fileID: 114282757}
   - {fileID: 450259678}
+  - {fileID: 1702738193}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -898,12 +907,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702738190}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -960, y: -540, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1191873930}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1956990655
 GameObject:
@@ -997,11 +1006,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2108584416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2108584418}
+  - component: {fileID: 2108584417}
+  m_Layer: 0
+  m_Name: GameManagerObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2108584417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108584416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce35196a33470d4cb89d8b8083ca84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InGame: 0
+  RequiredScore: 20
+  CO2_Count: 0
+  MinigameWin: 0
+  Camera: {fileID: 0}
+  ScoreCounter: {fileID: 0}
+  CameraDollies: []
+--- !u!4 &2108584418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108584416}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 543.2178, y: -242.39441, z: 1582.6602}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1191873930}
-  - {fileID: 1702738193}
   - {fileID: 1956990658}
+  - {fileID: 2108584418}
   - {fileID: 956462024}

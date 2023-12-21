@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro.EditorUtilities;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -61,6 +59,7 @@ public class DialogueManager : MonoBehaviour
             TriggerScript[] TargetScript = FindObjectsOfType<TriggerScript>();
             foreach (TriggerScript script in TargetScript)
             {
+                script.FinishDialogue = true;
                 script.IndicatorOff();
             }
             TriggerAdded = true;

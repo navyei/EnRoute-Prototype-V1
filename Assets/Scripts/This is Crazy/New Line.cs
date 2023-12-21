@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +5,7 @@ public class DynamicLineDrawer : MonoBehaviour
 {
     public LineRenderer lineRenderer;
     public GameObject finishObject;
-    public float connectThreshold = 0.5f; // Adjust the threshold as needed
+    public float connectThreshold = 0.5f;
 
     private bool isDrawing = false;
     private List<Vector3> linePoints = new List<Vector3>();
@@ -45,10 +44,8 @@ public class DynamicLineDrawer : MonoBehaviour
     {
         Vector3 currentMousePosition = GetMousePositionOnPlane();
 
-        // Check for collision with objects tagged as "building" only when actively drawing
         if (CheckCollisionWithBuilding(linePoints[linePoints.Count - 1], currentMousePosition))
         {
-            // Don't draw if there's a collision with the building
             canDrawOnPath = false;
         }
         else
@@ -73,8 +70,6 @@ public class DynamicLineDrawer : MonoBehaviour
         if (isDrawing && linePoints.Count > 1)
         {
             Vector3 finishObjectPosition = finishObject.transform.position;
-
-            // Connect the line to the finish object
             linePoints.Add(finishObjectPosition);
 
             int currentPositionCount = linePoints.Count;
@@ -109,7 +104,6 @@ public class DynamicLineDrawer : MonoBehaviour
     bool CheckCollisionWithBuilding(Vector3 startPoint, Vector3 endPoint)
     {
         Vector3 direction = endPoint - startPoint;
-
         Ray ray = new Ray(startPoint, direction);
         RaycastHit hit;
 
@@ -117,7 +111,6 @@ public class DynamicLineDrawer : MonoBehaviour
         {
             if (hit.collider.CompareTag("Building"))
             {
-                // If the hit object is a building, stop drawing only for this segment
                 canDrawOnPath = false;
                 return true;
             }
@@ -126,10 +119,10 @@ public class DynamicLineDrawer : MonoBehaviour
         return false;
     }
 
-
     Vector3 GetMousePositionOnPlane()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit[] hits = Physics.RaycastAll(ray);
         Plane plane = new Plane(Vector3.up, Vector3.zero);
         float distance;
 
@@ -138,7 +131,6 @@ public class DynamicLineDrawer : MonoBehaviour
             return ray.GetPoint(distance);
         }
 
-        // If the ray doesn't hit the plane, return the current mouse position without modifying it
         return ray.origin + ray.direction * distance;
     }
 }
