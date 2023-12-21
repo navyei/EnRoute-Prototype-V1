@@ -24,6 +24,7 @@ public class ButtonMasher : MonoBehaviour
         gameOverText.enabled = false;
         gameWinText.enabled = false;
         progressBar.value = 0.1f; // Ensure game over text is hidden initially
+        
     }
 
     void Update()
