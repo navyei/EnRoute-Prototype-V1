@@ -35003,20 +35003,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsNPC: 1
   Dialogue:
-    Name: School Boy
+    Name: Businessman
     Sentences:
-    - The alarm went off, waking the boy up. It was a rather sunny day, a bit cloudy
-      in weather.
-    - '"*yawns* How long was I asleep for?"'
-    - '"That was a rather good night sleep. Surely, I''m not late for..."'
-    - The boy checks his phone.
-    - '"Huh?!"'
-    - '"It''s 6:50??? Class starts at 7!"'
-    - '"I''ve got to get ready and head there, fast!"'
-    - '"I can run, but that would be bad for my lungs..."'
-    - '"But I''m scared the other vehicles will be slow!"'
-    - '"Ugh... Let''s just get ready first and head out. How did I sleep through
-      my alarms, anyways?"'
+    - The alarm went off, waking the man up. The sun rays shine through the window,
+      it was a clear day.
+    - '"*yawns* It seems like a beautiful day today."'
+    - '"Let''s check the clock really quick..."'
+    - The man looked up to the clock on his wall. It was 6:00 AM.
+    - '"Oh! Rather early today! Work starts at 8 AM."'
+    - The man got out of bed and got ready, ate breakfast and stood at the door for
+      the day.
+    - '"Let''s make sure to not forget my suitcase... I can probably take my time
+      today."'
   DialogueIndicator: {fileID: 1289734674}
   IndicatorCooldown: 5
   HoverColor: {r: 1, g: 1, b: 1, a: 1}
