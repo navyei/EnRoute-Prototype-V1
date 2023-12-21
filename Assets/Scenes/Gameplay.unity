@@ -30443,8 +30443,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6443d2635f1ed744393a6d6bc90d65ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Height: 2
-  GridSize: 5
+  Height: 3
+  GridSize: 2
   Target:
     serializedVersion: 2
     m_Bits: 256
@@ -30535,7 +30535,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.26693356, y: 0.000000028720944, z: -0.00000000795524, w: 0.96371496}
+  m_LocalRotation: {x: 0.26693356, y: -0.000000028720944, z: 0.00000000795524, w: 0.96371496}
   m_LocalPosition: {x: 14, y: 20, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -32031,7 +32031,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176047651}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.26693356, y: 0.000000028720944, z: -0.00000000795524, w: 0.96371496}
+  m_LocalRotation: {x: 0.26693356, y: -0.000000028720944, z: 0.00000000795524, w: 0.96371496}
   m_LocalPosition: {x: 14, y: 20, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -34981,14 +34981,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636774179}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 34}
+  m_LocalRotation: {x: -0, y: 0.9999997, z: -0, w: -0.0007941486}
+  m_LocalPosition: {x: 31.399958, y: 0, z: 5.145955}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1289734675}
   m_Father: {fileID: 495296846}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180.091, z: 0}
 --- !u!114 &1636774181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35003,20 +35003,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsNPC: 1
   Dialogue:
-    Name: School Boy
+    Name: Businessman
     Sentences:
-    - The alarm went off, waking the boy up. It was a rather sunny day, a bit cloudy
-      in weather.
-    - '"*yawns* How long was I asleep for?"'
-    - '"That was a rather good night sleep. Surely, I''m not late for..."'
-    - The boy checks his phone.
-    - '"Huh?!"'
-    - '"It''s 6:50??? Class starts at 7!"'
-    - '"I''ve got to get ready and head there, fast!"'
-    - '"I can run, but that would be bad for my lungs..."'
-    - '"But I''m scared the other vehicles will be slow!"'
-    - '"Ugh... Let''s just get ready first and head out. How did I sleep through
-      my alarms, anyways?"'
+    - The alarm went off, waking the man up. The sun rays shine through the window,
+      it was a clear day.
+    - '"*yawns* It seems like a beautiful day today."'
+    - '"Let''s check the clock really quick..."'
+    - The man looked up to the clock on his wall. It was 6:00 AM.
+    - '"Oh! Rather early today! Work starts at 8 AM."'
+    - The man got out of bed and got ready, ate breakfast and stood at the door for
+      the day.
+    - '"Let''s make sure to not forget my suitcase... I can probably take my time
+      today."'
   DialogueIndicator: {fileID: 1289734674}
   IndicatorCooldown: 5
   HoverColor: {r: 1, g: 1, b: 1, a: 1}
@@ -43742,14 +43740,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149366846667}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.9, y: 2.1, z: 18.21}
+  m_LocalRotation: {x: -0, y: 0.7072097, z: -0, w: 0.7070039}
+  m_LocalPosition: {x: 19.822018, y: 2.1, z: 35.174793}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1583334197}
   m_Father: {fileID: 495296846}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.017, z: 0}
 --- !u!4 &543450653355208758
 Transform:
   m_ObjectHideFlags: 0
@@ -44100,6 +44098,7 @@ GameObject:
   - component: {fileID: 711071148}
   - component: {fileID: 711071147}
   - component: {fileID: 919132148297394463}
+  - component: {fileID: 919132148297394464}
   m_Layer: 6
   m_Name: SpawnTaxi
   m_TagString: Untagged
@@ -44120,6 +44119,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LayerNumber: 6
+--- !u!114 &919132148297394464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148297394462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6443d2635f1ed744393a6d6bc90d65ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Height: 3
+  GridSize: 2
+  Target:
+    serializedVersion: 2
+    m_Bits: 256
+  Hovering: 0
 --- !u!1 &919132148364864374
 GameObject:
   m_ObjectHideFlags: 0
@@ -45597,14 +45614,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7215343517705376955}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.9999997, z: -0, w: -0.0007941486}
+  m_LocalPosition: {x: -2.6, y: 0, z: 5.2}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4124699851723861665}
   m_Father: {fileID: 495296846}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180.091, z: 0}
 --- !u!1 &4964662018676299609
 GameObject:
   m_ObjectHideFlags: 0
@@ -46045,14 +46062,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6095541749103421047}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.221622, y: 2.5, z: 5.8846955}
+  m_LocalRotation: {x: -0, y: 0.7072097, z: -0, w: 0.7070039}
+  m_LocalPosition: {x: 7.5, y: 2.5, z: 46.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1847623200}
   m_Father: {fileID: 495296846}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.017, z: 0}
 --- !u!23 &6941558654026907354
 MeshRenderer:
   m_ObjectHideFlags: 0
