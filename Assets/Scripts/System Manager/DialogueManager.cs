@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     public Queue<string> Sentences;
     public Animator PopupAnimator;
     public bool TriggerAdded;
+
     void Start()
     {
         Sentences = new Queue<string>();

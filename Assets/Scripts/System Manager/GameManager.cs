@@ -20,7 +20,6 @@ public class GameManager :MonoBehaviour
             }
             return instance;
         }
-        
     }
 
     public static string UpcomingScene;

@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class WhatChaLookingAt : MonoBehaviour
 {
-    public Transform ThingToLookAt;
+    private Transform ThingToLookAt;
+
+    private void Start()
+    {
+        ThingToLookAt = GameObject.FindGameObjectWithTag("Aim Target").transform;
+    }
 
     void FixedUpdate()
     {

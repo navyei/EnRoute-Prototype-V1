@@ -6,31 +6,30 @@ using UnityEngine.UI;
 
 public class ButtonSpawn : MonoBehaviour
 {
-    public GameObject BaseCar;
-    public GameObject SpawnCar;
-    
-    private Transform BasePos;
-    private bool Input = false;
-    private Vector3 SpawnPos;
-    private Quaternion SpawnRot;
-    private void Start()
+    public bool Input = false;
+    public GameObject BaseVehicle;
+    public GameObject SpawnVehicle;
+
+    private Vector3 BasePosition;
+    private Quaternion BaseRotation;
+    void Start()
     {
-        BasePos = BaseCar.transform;
-        SpawnPos = BasePos.position;
-        SpawnRot = BasePos.rotation;
-        Destroy( BaseCar );
+        BasePosition = BaseVehicle.transform.position;
+        BaseRotation = BaseVehicle.transform.rotation;
+        Destroy(BaseVehicle);
+    }
+    private void FixedUpdate()
+    {
+        if (Input)
+        {
+            GameObject SpawnedVehicle = Instantiate(SpawnVehicle, BasePosition, BaseRotation);
+        }
+        Input = false;
     }
 
     public void Pressed()
     {
         Input = true;
-    }
-    private void Update()
-    {
-        if (Input)
-        {
-            GameObject SpawnedCar = Instantiate(SpawnCar, SpawnPos, SpawnRot);
-        }
-        Input = false;
+
     }
 }

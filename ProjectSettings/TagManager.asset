@@ -12,15 +12,16 @@ TagManager:
   - Destroy
   - M1
   - NPC
+  - Aim Target
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - NPC
   - Water
   - UI
-  - 
-  - 
+  - Taxi
+  - Cooper
   - 
   - 
   - 
