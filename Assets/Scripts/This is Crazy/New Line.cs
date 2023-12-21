@@ -108,10 +108,12 @@ public class DynamicLineDrawer : MonoBehaviour
 
     bool CheckCollisionWithBuilding(Vector3 startPoint, Vector3 endPoint)
     {
-        Ray ray = new Ray(startPoint, endPoint - startPoint);
+        Vector3 direction = endPoint - startPoint;
+
+        Ray ray = new Ray(startPoint, direction);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, Vector3.Distance(startPoint, endPoint)))
+        if (Physics.Raycast(ray, out hit, direction.magnitude))
         {
             if (hit.collider.CompareTag("Building"))
             {
@@ -123,6 +125,7 @@ public class DynamicLineDrawer : MonoBehaviour
 
         return false;
     }
+
 
     Vector3 GetMousePositionOnPlane()
     {
