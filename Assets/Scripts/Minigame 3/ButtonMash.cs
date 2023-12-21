@@ -75,7 +75,7 @@ public class ButtonMasher : MonoBehaviour
     {
         GameManager.mini3Win = false;
         _gameEnded = true;
-        gameOverText.enabled = true; 
+        gameOverText.enabled = true;
     }
 
     void GameWin()
