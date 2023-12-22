@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1031712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 202225792}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4773089
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,10 +976,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1798004807}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &23784749 stripped
 Transform:
@@ -1163,6 +1175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: truong
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4d2a671f38253524ca4b298a331ce719, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 4d2a671f38253524ca4b298a331ce719, type: 3}
@@ -1170,7 +1186,10 @@ PrefabInstance:
     - {fileID: 65702495048144492, guid: 4d2a671f38253524ca4b298a331ce719, type: 3}
     - {fileID: -2572967989333021709, guid: 4d2a671f38253524ca4b298a331ce719, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d2a671f38253524ca4b298a331ce719, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1058348775}
   m_SourcePrefab: {fileID: 100100000, guid: 4d2a671f38253524ca4b298a331ce719, type: 3}
 --- !u!4 &34924764 stripped
 Transform:
@@ -1662,6 +1681,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
   m_PrefabInstance: {fileID: 64854614}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &65216392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea43dea5cceb16744bf17ad70e0a0fef, type: 3}
+  m_PrefabInstance: {fileID: 133769678}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &78074625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1729,6 +1753,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1808,6 +1836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1886,6 +1918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1909,7 +1945,7 @@ GameObject:
   - component: {fileID: 83798832}
   m_Layer: 0
   m_Name: Cube (23)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2497,6 +2533,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 115565306}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &119757808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1749393353}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &121730191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2868,6 +2909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bitexco 2.0
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ea43dea5cceb16744bf17ad70e0a0fef, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 3316992658331686828, guid: ea43dea5cceb16744bf17ad70e0a0fef, type: 3}
       propertyPath: m_LocalScale.x
       value: 250
@@ -2926,13 +2971,37 @@ PrefabInstance:
     - {fileID: -5568371526223589888, guid: ea43dea5cceb16744bf17ad70e0a0fef, type: 3}
     - {fileID: -8700617353114198275, guid: ea43dea5cceb16744bf17ad70e0a0fef, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ea43dea5cceb16744bf17ad70e0a0fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 133769680}
   m_SourcePrefab: {fileID: 100100000, guid: ea43dea5cceb16744bf17ad70e0a0fef, type: 3}
 --- !u!4 &133769679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea43dea5cceb16744bf17ad70e0a0fef, type: 3}
   m_PrefabInstance: {fileID: 133769678}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &133769680
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65216392}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &135881289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3001,6 +3070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3022,9 +3095,10 @@ GameObject:
   - component: {fileID: 138345159}
   - component: {fileID: 138345161}
   - component: {fileID: 138345160}
+  - component: {fileID: 138345162}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3095,6 +3169,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138345158}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &138345162
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138345158}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953757, y: 0.039598934, z: 0.07558589}
+  m_Center: {x: -0.000000051687778, y: -0.000014708837, z: -0.007822014}
 --- !u!1 &149235259
 GameObject:
   m_ObjectHideFlags: 0
@@ -3126,6 +3221,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1388289957}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &150441307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+  m_PrefabInstance: {fileID: 2124634771}
+  m_PrefabAsset: {fileID: 0}
 --- !u!213 &152218818
 Sprite:
   m_ObjectHideFlags: 0
@@ -3461,9 +3561,10 @@ GameObject:
   - component: {fileID: 169615118}
   - component: {fileID: 169615120}
   - component: {fileID: 169615119}
+  - component: {fileID: 169615121}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3534,6 +3635,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169615117}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &169615121
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169615117}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953758, y: 0.039598934, z: 0.07558589}
+  m_Center: {x: 0.0000004254083, y: -0.000014657228, z: -0.007822014}
 --- !u!213 &175372120
 Sprite:
   m_ObjectHideFlags: 0
@@ -7253,16 +7375,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 202225796}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &202225793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 202225792}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &202225796
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031712}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015309, y: -0.012305604, z: -0.0007306207}
 --- !u!1001 &204365768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7421,6 +7571,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
   m_PrefabInstance: {fileID: 206604909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &208866261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 603079720}
   m_PrefabAsset: {fileID: 0}
 --- !u!213 &211722771
 Sprite:
@@ -7700,6 +7855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7943,6 +8102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7952,6 +8115,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 243788238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &246697030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 785626963}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &247427493
 PrefabInstance:
@@ -8020,6 +8188,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8230,6 +8402,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 258135374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &261819489 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1276339242}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &268712894
 GameObject:
@@ -23037,6 +23214,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 0, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 9, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -27333,7 +27520,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 77e65041125f8614697f1386f65d98ea, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: dd0da89e97a98cd43bffcd150c87f6ee, type: 2}
-  - m_RefCount: 25
+  - m_RefCount: 26
     m_Data: {fileID: 11400000, guid: 42f442bb2987c9844a5c92250d69ab18, type: 2}
   - m_RefCount: 38
     m_Data: {fileID: 11400000, guid: 3775a42bf0f828f44aa11324739c1c46, type: 2}
@@ -27488,7 +27675,7 @@ Tilemap:
     m_Data: {fileID: 1993151946, guid: f4b9c5f36839cf54985a885507f4091b, type: 3}
   - m_RefCount: 38
     m_Data: {fileID: -401882152, guid: f4b9c5f36839cf54985a885507f4091b, type: 3}
-  - m_RefCount: 25
+  - m_RefCount: 26
     m_Data: {fileID: 595127126, guid: f4b9c5f36839cf54985a885507f4091b, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 1498544247, guid: f4b9c5f36839cf54985a885507f4091b, type: 3}
@@ -27639,7 +27826,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 1695550712, guid: f4b9c5f36839cf54985a885507f4091b, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 1896
+  - m_RefCount: 1897
     m_Data:
       e00: 1
       e01: 0
@@ -27658,7 +27845,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 1896
+  - m_RefCount: 1897
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
@@ -27980,10 +28167,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1141649550}
   m_SourcePrefab: {fileID: 100100000, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
 --- !u!4 &313834968 stripped
 Transform:
@@ -28299,6 +28493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28413,6 +28611,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28586,6 +28788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28664,6 +28870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28741,6 +28951,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29142,6 +29356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29316,6 +29534,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
       propertyPath: m_Name
       value: oldtube1 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29526,6 +29748,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29953,7 +30179,7 @@ GameObject:
   - component: {fileID: 376358085}
   m_Layer: 0
   m_Name: Cube (27)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30092,6 +30318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: day nha 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30193,7 +30423,7 @@ GameObject:
   - component: {fileID: 381350284}
   m_Layer: 0
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30264,6 +30494,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381350282}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!1 &382888672 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1777303782}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &383804983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30331,6 +30566,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30504,10 +30743,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 727620496}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &399794701 stripped
 Transform:
@@ -30962,10 +31208,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1988597126}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &424871093 stripped
 Transform:
@@ -31118,6 +31371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31269,15 +31526,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 690105397}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &431490116 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 431490115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &432116056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 2008776355}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &432709627
 GameObject:
@@ -31413,6 +31682,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432709627}
   m_CullTransparentMesh: 1
+--- !u!1 &449119536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1626423537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &451407230
 GameObject:
   m_ObjectHideFlags: 0
@@ -31559,6 +31833,11 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
+--- !u!1 &461129448 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1940141070}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &464138151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31627,10 +31906,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 954489827}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &464138152 stripped
 Transform:
@@ -32189,6 +32475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32378,6 +32668,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32679,6 +32973,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 486472185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &491747138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 721862044}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &494448815
 PrefabInstance:
@@ -33024,6 +33323,11 @@ Transform:
   - {fileID: 1500490266}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &502609973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+  m_PrefabInstance: {fileID: 792077139}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &505974801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33091,6 +33395,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33325,6 +33633,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: day nha 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33952,10 +34264,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1294444759}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &549560090 stripped
 Transform:
@@ -34017,7 +34336,7 @@ GameObject:
   - component: {fileID: 569870591}
   m_Layer: 0
   m_Name: Cube (15)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34155,6 +34474,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34314,7 +34637,7 @@ GameObject:
   - component: {fileID: 585601120}
   m_Layer: 0
   m_Name: Cube (26)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34398,7 +34721,7 @@ GameObject:
   - component: {fileID: 586647038}
   m_Layer: 0
   m_Name: Cube (16)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34740,16 +35063,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 603079724}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &603079721 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 603079720}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &603079724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208866261}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007016203, y: -0.012306081, z: -0.00073061325}
 --- !u!1001 &607639627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34817,6 +35168,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34895,6 +35250,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35410,10 +35769,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 656080988}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &642115282 stripped
 Transform:
@@ -35600,6 +35966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35610,6 +35980,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 653626252}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &656080985 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 642115281}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &656080988
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656080985}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070154114, y: -0.012306558, z: -0.0007306058}
 --- !u!1 &665451691
 GameObject:
   m_ObjectHideFlags: 0
@@ -36041,6 +36437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: day nha 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -36206,10 +36606,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1750082571}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &675540157 stripped
 Transform:
@@ -36406,6 +36813,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aa39a4cbc49b1864d88c7701934aa219, type: 3}
   m_PrefabInstance: {fileID: 687404726}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &690105394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 431490115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &690105397
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690105394}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015086, y: -0.012306081, z: -0.00073059835}
 --- !u!1 &693233707
 GameObject:
   m_ObjectHideFlags: 0
@@ -36722,6 +37155,11 @@ Transform:
   - {fileID: 248014612}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &706978073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1594732262}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &707506198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37279,16 +37717,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 721862048}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &721862045 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 721862044}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &721862048
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491747138}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070155144, y: -0.012306081, z: -0.0007305909}
+--- !u!1 &727620493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 399794700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &727620496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727620493}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070141174, y: -0.012305604, z: -0.00073060207}
 --- !u!1 &728107236
 GameObject:
   m_ObjectHideFlags: 0
@@ -37300,9 +37792,10 @@ GameObject:
   - component: {fileID: 728107237}
   - component: {fileID: 728107239}
   - component: {fileID: 728107238}
+  - component: {fileID: 728107240}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37373,6 +37866,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728107236}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &728107240
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728107236}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953756, y: 0.039598916, z: 0.07558589}
+  m_Center: {x: -0.00000005259467, y: -0.000014746079, z: -0.007822014}
 --- !u!1001 &731563746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37656,6 +38170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37876,6 +38394,11 @@ Sprite:
   m_PhysicsShape: []
   m_Bones: []
   m_SpriteID: 
+--- !u!1 &761047523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+  m_PrefabInstance: {fileID: 1364521812}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &763782176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37943,6 +38466,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38022,6 +38549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38099,6 +38630,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38178,16 +38713,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 785626967}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &785626964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 785626963}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &785626967
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246697030}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070153095, y: -0.012305604, z: -0.00073060207}
 --- !u!1 &788921182
 GameObject:
   m_ObjectHideFlags: 3
@@ -38383,16 +38946,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1 (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 792077143}
   m_SourcePrefab: {fileID: 100100000, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
 --- !u!4 &792077140 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
   m_PrefabInstance: {fileID: 792077139}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &792077143
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502609973}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.045431484, y: 0.03192694, z: 0.071569614}
+  m_Center: {x: 0.022810815, y: -0.00004222048, z: 0.035652}
 --- !u!1001 &794122718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38721,6 +39312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38806,7 +39401,7 @@ GameObject:
   - component: {fileID: 830108939}
   m_Layer: 0
   m_Name: Cube (17)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38945,6 +39540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39022,6 +39621,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
       propertyPath: m_Name
       value: oldtube1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39153,11 +39756,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: bus stop (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3bd781db92ff86d4fbe0ec9856522e8c, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 65702495048144492, guid: 3bd781db92ff86d4fbe0ec9856522e8c, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3bd781db92ff86d4fbe0ec9856522e8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 962768262}
+    - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 3bd781db92ff86d4fbe0ec9856522e8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1817823999}
   m_SourcePrefab: {fileID: 100100000, guid: 3bd781db92ff86d4fbe0ec9856522e8c, type: 3}
 --- !u!4 &846470750 stripped
 Transform:
@@ -39310,6 +39923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39421,6 +40038,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39697,6 +40318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39718,9 +40343,10 @@ GameObject:
   - component: {fileID: 880766121}
   - component: {fileID: 880766123}
   - component: {fileID: 880766122}
+  - component: {fileID: 880766124}
   m_Layer: 0
   m_Name: Cube.001 (1)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39790,6 +40416,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880766120}
   m_Mesh: {fileID: 4493585093827132993, guid: 6ad4ee9fd54bc274fb67cdf89ea0df14, type: 3}
+--- !u!65 &880766124
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880766120}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.06248546, y: 0.061986495, z: 0.059962813}
+  m_Center: {x: 0.004526882, y: 0.0055384, z: -0.0015479556}
 --- !u!1 &883212905
 GameObject:
   m_ObjectHideFlags: 0
@@ -39897,7 +40544,7 @@ GameObject:
   - component: {fileID: 888592485}
   m_Layer: 0
   m_Name: Cube (22)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40036,6 +40683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40127,6 +40778,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 903686572}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &907714052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+  m_PrefabInstance: {fileID: 1747058994}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &908545386
 GameObject:
   m_ObjectHideFlags: 0
@@ -40140,7 +40796,7 @@ GameObject:
   - component: {fileID: 908545388}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40211,6 +40867,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908545386}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!1 &910145997 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1395334376}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &915656286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40279,6 +40940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40288,6 +40953,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 915656286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &932445265 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1053121913}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &935286558
 PrefabInstance:
@@ -40357,10 +41027,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1215642421}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &935286559 stripped
 Transform:
@@ -40796,6 +41473,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
   m_PrefabInstance: {fileID: 954467154}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &954489824 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 464138151}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &954489827
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954489824}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070153835, y: -0.012306558, z: -0.0007306058}
 --- !u!1001 &960357095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40942,6 +41645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40952,6 +41659,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 961429645}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &962768261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3bd781db92ff86d4fbe0ec9856522e8c, type: 3}
+  m_PrefabInstance: {fileID: 846470749}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &962768262
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962768261}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -41038,7 +41771,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.26693356, y: 0.000000028720944, z: -0.00000000795524, w: 0.96371496}
+  m_LocalRotation: {x: 0.2669336, y: -3.4238033e-15, z: 1.836517e-15, w: 0.96371496}
   m_LocalPosition: {x: 14, y: 20, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -41768,6 +42501,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989086674}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!1 &989840246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1275714892}
+  m_PrefabAsset: {fileID: 0}
 --- !u!213 &998742298
 Sprite:
   m_ObjectHideFlags: 0
@@ -42046,6 +42784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -42124,10 +42866,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1082823441}
   m_SourcePrefab: {fileID: 100100000, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
 --- !u!4 &1009150284 stripped
 Transform:
@@ -42889,6 +43638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -42967,16 +43720,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1053121917}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1053121914 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1053121913}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1053121917
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932445265}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015011, y: -0.012306558, z: -0.0007306058}
+--- !u!1 &1058348774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d2a671f38253524ca4b298a331ce719, type: 3}
+  m_PrefabInstance: {fileID: 34924763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1058348775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058348774}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1067121199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43123,6 +43930,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43200,6 +44011,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
       propertyPath: m_Name
       value: oldtube1 (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43367,6 +44182,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1082158241}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1082823438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+  m_PrefabInstance: {fileID: 1009150283}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1082823441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082823438}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.04543151, y: 0.031926926, z: 0.07156961}
+  m_Center: {x: 0.022811208, y: -0.000042413616, z: 0.03565198}
 --- !u!1 &1087634874
 GameObject:
   m_ObjectHideFlags: 0
@@ -43775,6 +44616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43999,6 +44844,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140722330}
   m_CullTransparentMesh: 1
+--- !u!1 &1141649547 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+  m_PrefabInstance: {fileID: 313834967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1141649550
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141649547}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.045431525, y: 0.031926926, z: 0.07156961}
+  m_Center: {x: 0.022810735, y: -0.00004239887, z: 0.035651993}
 --- !u!1001 &1150610887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44066,6 +44937,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -44145,6 +45020,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44218,6 +45097,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aa39a4cbc49b1864d88c7701934aa219, type: 3}
   m_PrefabInstance: {fileID: 1163157199}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1164381282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 2046971370}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1168157730
 GameObject:
   m_ObjectHideFlags: 0
@@ -44231,7 +45115,7 @@ GameObject:
   - component: {fileID: 1168157732}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44400,7 +45284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176047651}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.26693356, y: 0.000000028720944, z: -0.00000000795524, w: 0.96371496}
+  m_LocalRotation: {x: 0.2669336, y: -3.4238033e-15, z: 1.836517e-15, w: 0.96371496}
   m_LocalPosition: {x: 14, y: 20, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -44684,6 +45568,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209549249}
   m_Mesh: {fileID: 1224690954365612549, guid: aa39a4cbc49b1864d88c7701934aa219, type: 3}
+--- !u!1 &1215642418 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 935286558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1215642421
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215642418}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015011, y: -0.012306081, z: -0.0007306207}
 --- !u!1001 &1219860109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44830,6 +45740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44908,6 +45822,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44985,6 +45903,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -45332,9 +46254,10 @@ GameObject:
   - component: {fileID: 1264708850}
   - component: {fileID: 1264708852}
   - component: {fileID: 1264708851}
+  - component: {fileID: 1264708853}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45405,6 +46328,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264708849}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &1264708853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264708849}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953754, y: 0.039598912, z: 0.07558588}
+  m_Center: {x: 0.00000019371512, y: -0.000014493244, z: -0.007822018}
 --- !u!1001 &1275714892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45473,16 +46417,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1275714896}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1275714893 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1275714892}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1275714896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989840246}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.02859727, y: 0.040698987, z: 0.089747235}
+  m_Center: {x: -0.00070160464, y: -0.012305853, z: -0.00073072716}
 --- !u!1001 &1276339242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45551,15 +46523,48 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1276339246}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1276339243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1276339242}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1276339246
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261819489}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070156076, y: -0.012306081, z: -0.0007306058}
+--- !u!1 &1278229178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 2054869826}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1278743212
 MonoBehaviour:
@@ -45976,6 +46981,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1291203179}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1294444756 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 549560089}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1294444759
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294444756}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070154207, y: -0.012306081, z: -0.0007306207}
 --- !u!1001 &1296891101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46043,6 +47074,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46122,6 +47157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46131,6 +47170,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1301809600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1305472073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1830925765}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1311638314
 PrefabInstance:
@@ -46309,6 +47353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46387,10 +47435,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2123220342}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1323110763 stripped
 Transform:
@@ -46533,6 +47588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46610,6 +47669,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46835,6 +47898,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1350272310}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1355181292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 2028190630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1361342721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47043,10 +48111,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2015434702}
   m_SourcePrefab: {fileID: 100100000, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
 --- !u!4 &1362928494 stripped
 Transform:
@@ -47121,16 +48196,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1364521816}
   m_SourcePrefab: {fileID: 100100000, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
 --- !u!4 &1364521813 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
   m_PrefabInstance: {fileID: 1364521812}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1364521816
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761047523}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.045431525, y: 0.031926926, z: 0.07156961}
+  m_Center: {x: 0.022810735, y: -0.000042443575, z: 0.03565199}
 --- !u!1 &1376296062
 GameObject:
   m_ObjectHideFlags: 0
@@ -47543,16 +48646,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1395334380}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1395334377 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1395334376}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1395334380
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910145997}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070147135, y: -0.012305604, z: -0.00073058344}
 --- !u!1 &1402863426
 GameObject:
   m_ObjectHideFlags: 0
@@ -47566,7 +48697,7 @@ GameObject:
   - component: {fileID: 1402863428}
   m_Layer: 0
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47736,10 +48867,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1796755291}
   m_SourcePrefab: {fileID: 100100000, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
 --- !u!4 &1412905737 stripped
 Transform:
@@ -47813,6 +48951,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -48737,6 +49879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48814,6 +49960,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -49031,6 +50181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -49108,6 +50262,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -49187,6 +50345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -49265,6 +50427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1 (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -49342,6 +50508,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -49933,6 +51103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -50509,6 +51683,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1543911720}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1543952916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1857882111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1547339589
 GameObject:
   m_ObjectHideFlags: 0
@@ -50522,7 +51701,7 @@ GameObject:
   - component: {fileID: 1547339591}
   m_Layer: 0
   m_Name: Cube (20)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51049,16 +52228,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1594732266}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1594732263 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1594732262}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1594732266
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706978073}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015309, y: -0.012306081, z: -0.0007306207}
 --- !u!1 &1600874003
 GameObject:
   m_ObjectHideFlags: 0
@@ -51157,6 +52364,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51611,16 +52822,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1626423541}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1626423538 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1626423537}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1626423541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449119536}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070153095, y: -0.012305604, z: -0.0007305909}
 --- !u!1 &1636774179
 GameObject:
   m_ObjectHideFlags: 0
@@ -51672,7 +52911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsNPC: 1
   Dialogue:
-    Name: School Boy
+    Name: Businessman
     Sentences:
     - The alarm went off, waking the boy up. It was a rather sunny day, a bit cloudy
       in weather.
@@ -51689,7 +52928,7 @@ MonoBehaviour:
   DialogueIndicator: {fileID: 1289734674}
   IndicatorCooldown: 5
   FinishDialogue: 0
-  AfterDialogueTarget: {fileID: 0}
+  AfterDialogueTarget: {fileID: 1044113029}
   HoverColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1636774182
 MonoBehaviour:
@@ -52438,6 +53677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -52584,6 +53827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -52696,6 +53943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -52774,6 +54025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -52815,6 +54070,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1350272311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1694312709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 2074100276}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1695112711
 GameObject:
   m_ObjectHideFlags: 0
@@ -52964,7 +54224,7 @@ GameObject:
   - component: {fileID: 1696486489}
   m_Layer: 0
   m_Name: Cube (25)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53641,6 +54901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -53719,16 +54983,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1747058998}
   m_SourcePrefab: {fileID: 100100000, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
 --- !u!4 &1747058995 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
   m_PrefabInstance: {fileID: 1747058994}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1747058998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907714052}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.045431484, y: 0.03192694, z: 0.071569614}
+  m_Center: {x: 0.022810785, y: -0.000042458898, z: 0.035651993}
 --- !u!1001 &1749393353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53797,16 +55089,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1749393357}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1749393354 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1749393353}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1749393357
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119757808}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070150115, y: -0.012306081, z: -0.0007305909}
+--- !u!1 &1750082568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 675540156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1750082571
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750082568}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597245, y: 0.04069896, z: 0.08974724}
+  m_Center: {x: -0.0007014101, y: -0.012306082, z: -0.0007307791}
 --- !u!1001 &1758106472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53925,9 +55271,10 @@ GameObject:
   - component: {fileID: 1764213366}
   - component: {fileID: 1764213368}
   - component: {fileID: 1764213367}
+  - component: {fileID: 1764213369}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53998,6 +55345,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764213365}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &1764213369
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764213365}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.079537556, y: 0.039598938, z: 0.07558592}
+  m_Center: {x: 0.00000021604207, y: -0.000014731671, z: -0.007822014}
 --- !u!1001 &1769220325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54066,10 +55434,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2111435775}
   m_SourcePrefab: {fileID: 100100000, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
 --- !u!4 &1769220326 stripped
 Transform:
@@ -54278,16 +55653,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1777303786}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1777303783 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1777303782}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1777303786
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382888672}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597225, y: 0.040698934, z: 0.08974721}
+  m_Center: {x: -0.0007016203, y: -0.012306558, z: -0.00073061703}
 --- !u!1001 &1780037830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54356,10 +55759,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1871105800}
   m_SourcePrefab: {fileID: 100100000, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
 --- !u!4 &1780037831 stripped
 Transform:
@@ -54377,9 +55787,10 @@ GameObject:
   - component: {fileID: 1781153522}
   - component: {fileID: 1781153524}
   - component: {fileID: 1781153523}
+  - component: {fileID: 1781153525}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54393,7 +55804,7 @@ Transform:
   m_GameObject: {fileID: 1781153521}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50584036, y: -0.49409088, z: -0.49409083, w: 0.50583994}
-  m_LocalPosition: {x: 22.58, y: 4.56, z: 11.93}
+  m_LocalPosition: {x: 22.6, y: 4.56, z: 11.9}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -54450,6 +55861,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781153521}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &1781153525
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781153521}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953758, y: 0.03959893, z: 0.075585894}
+  m_Center: {x: 0.0000006639677, y: -0.00001473084, z: -0.007822014}
 --- !u!1001 &1785791153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54609,6 +56041,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1789417792}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1796755288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+  m_PrefabInstance: {fileID: 1412905736}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1796755291
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796755288}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0454315, y: 0.03192693, z: 0.07156961}
+  m_Center: {x: 0.022810653, y: -0.000042473937, z: 0.03565198}
 --- !u!1001 &1796859704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54687,6 +56145,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
   m_PrefabInstance: {fileID: 1796859704}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1798004804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 23784748}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1798004807
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798004804}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015905, y: -0.012306558, z: -0.0007306095}
 --- !u!1 &1800609196
 GameObject:
   m_ObjectHideFlags: 0
@@ -55004,7 +56488,7 @@ GameObject:
   - component: {fileID: 1803619327}
   m_Layer: 0
   m_Name: Cube.001 (2)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55087,7 +56571,7 @@ GameObject:
   - component: {fileID: 1810327560}
   m_Layer: 0
   m_Name: Cube (21)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55158,6 +56642,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810327558}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!1 &1817823995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 3bd781db92ff86d4fbe0ec9856522e8c, type: 3}
+  m_PrefabInstance: {fileID: 846470749}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1817823999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817823995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.05382876, y: 0.017822552, z: 0.020318527}
+  m_Center: {x: -0.022943063, y: 0.008558633, z: 0.010186037}
 --- !u!1001 &1830925765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55226,15 +56736,48 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1830925769}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1830925766 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1830925765}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1830925769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305472073}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070147135, y: -0.012306558, z: -0.00073061325}
+--- !u!1 &1832784363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1857612102}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1838391188
 GameObject:
@@ -55736,16 +57279,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1857612106}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1857612103 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1857612102}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1857612106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832784363}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015309, y: -0.012306558, z: -0.0007306058}
 --- !u!1001 &1857882111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55814,16 +57385,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1857882115}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1857882112 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1857882111}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1857882115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543952916}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015309, y: -0.012306081, z: -0.0007306207}
 --- !u!1001 &1861111788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56058,6 +57657,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
   m_PrefabInstance: {fileID: 1870311756}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1871105797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+  m_PrefabInstance: {fileID: 1780037830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1871105800
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871105797}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.045431525, y: 0.031926926, z: 0.07156961}
+  m_Center: {x: 0.022810735, y: -0.000042428674, z: 0.03565199}
 --- !u!1001 &1871978451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56670,6 +58295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -56975,6 +58604,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -57332,16 +58965,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1940141074}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &1940141071 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 1940141070}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1940141074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461129448}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070153095, y: -0.012306081, z: -0.0007305946}
 --- !u!1001 &1941220047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57433,7 +59094,7 @@ GameObject:
   - component: {fileID: 1946815595}
   m_Layer: 0
   m_Name: Cube (24)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57595,7 +59256,7 @@ GameObject:
   - component: {fileID: 1961664047}
   m_Layer: 0
   m_Name: Cube (19)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58308,6 +59969,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986792456}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1988597123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 424871092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1988597126
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988597123}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015309, y: -0.012306081, z: -0.0007306207}
 --- !u!1001 &1999507586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58384,7 +60071,7 @@ GameObject:
   - component: {fileID: 2001783943}
   m_Layer: 0
   m_Name: Cube (14)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58523,6 +60210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58601,16 +60292,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2008776359}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &2008776356 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 2008776355}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2008776359
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432116056}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015086, y: -0.012306081, z: -0.000730576}
 --- !u!1 &2008932271
 GameObject:
   m_ObjectHideFlags: 0
@@ -58733,6 +60452,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 2010085334}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2015434699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+  m_PrefabInstance: {fileID: 1362928493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2015434702
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015434699}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.04543151, y: 0.03192693, z: 0.07156961}
+  m_Center: {x: 0.022810727, y: -0.00004238413, z: 0.035651993}
 --- !u!1001 &2018329373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58864,6 +60609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58942,16 +60691,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2028190634}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &2028190631 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 2028190630}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2028190634
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355181292}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070151605, y: -0.012306081, z: -0.0007305797}
 --- !u!1001 &2031403193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59331,7 +61108,7 @@ GameObject:
   - component: {fileID: 2038119330}
   m_Layer: 0
   m_Name: Cube (13)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59553,16 +61330,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2046971374}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &2046971371 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 2046971370}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2046971374
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164381282}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015011, y: -0.012306081, z: -0.0007306207}
 --- !u!1001 &2054869826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59631,16 +61436,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2054869830}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &2054869827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 2054869826}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2054869830
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278229178}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.0007015458, y: -0.012306558, z: -0.0007306058}
 --- !u!1 &2062097392
 GameObject:
   m_ObjectHideFlags: 0
@@ -59771,16 +61604,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2074100280}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
 --- !u!4 &2074100277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 2074100276}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2074100280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694312709}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597226, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070152344, y: -0.012306081, z: -0.0007306207}
 --- !u!1001 &2077015541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59848,6 +61709,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -60099,7 +61964,7 @@ GameObject:
   - component: {fileID: 2086940508}
   m_Layer: 0
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60183,7 +62048,7 @@ GameObject:
   - component: {fileID: 2092199272}
   m_Layer: 0
   m_Name: Cube (18)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60267,7 +62132,7 @@ GameObject:
   - component: {fileID: 2097242604}
   m_Layer: 0
   m_Name: Cube (12)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60405,6 +62270,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -60562,6 +62431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modern tube1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60572,6 +62445,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
   m_PrefabInstance: {fileID: 2109096935}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2111435772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+  m_PrefabInstance: {fileID: 1769220325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2111435775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111435772}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.04543151, y: 0.03192693, z: 0.07156961}
+  m_Center: {x: 0.022810727, y: -0.000042428834, z: 0.03565199}
 --- !u!213 &2119187529
 Sprite:
   m_ObjectHideFlags: 0
@@ -60782,6 +62681,32 @@ Sprite:
   m_PhysicsShape: []
   m_Bones: []
   m_SpriteID: 
+--- !u!1 &2123220339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+  m_PrefabInstance: {fileID: 1323110762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2123220342
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123220339}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.028597228, y: 0.040698934, z: 0.089747205}
+  m_Center: {x: -0.00070156076, y: -0.012306081, z: -0.00073058344}
 --- !u!1001 &2124634771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60850,16 +62775,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: oldtube1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2124634775}
   m_SourcePrefab: {fileID: 100100000, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
 --- !u!4 &2124634772 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 558addb71df33c042bdd2a6b26a4e9ab, type: 3}
   m_PrefabInstance: {fileID: 2124634771}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2124634775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150441307}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.04543149, y: 0.031926934, z: 0.07156961}
+  m_Center: {x: 0.022810679, y: -0.000042473945, z: 0.035651978}
 --- !u!1001 &2127646577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60927,6 +62880,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
       propertyPath: m_Name
       value: modern tube1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ac486c1c20e18d4cb2e566072d391b4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -61706,7 +63663,7 @@ GameObject:
   - component: {fileID: 4539702727726431350}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61740,9 +63697,10 @@ GameObject:
   - component: {fileID: 3745622627946586894}
   - component: {fileID: 5334037119997744528}
   - component: {fileID: 4539702727716555087}
+  - component: {fileID: 5334037119997744529}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61778,7 +63736,7 @@ GameObject:
   - component: {fileID: 4539702727522365348}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61794,9 +63752,10 @@ GameObject:
   - component: {fileID: 3745622627541795135}
   - component: {fileID: 5334037120129841057}
   - component: {fileID: 4539702727580216190}
+  - component: {fileID: 5334037120129841058}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61830,9 +63789,11 @@ GameObject:
   - component: {fileID: 3745622627378995734}
   - component: {fileID: 5334037118229042312}
   - component: {fileID: 4539702729363556439}
+  - component: {fileID: 5334037118229042313}
+  - component: {fileID: 5334037118229042314}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61866,9 +63827,10 @@ GameObject:
   - component: {fileID: 3745622627010521769}
   - component: {fileID: 5334037118534409271}
   - component: {fileID: 4539702729196536040}
+  - component: {fileID: 5334037118534409272}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61902,9 +63864,10 @@ GameObject:
   - component: {fileID: 3745622626810452820}
   - component: {fileID: 5334037118734740938}
   - component: {fileID: 4539702728862134549}
+  - component: {fileID: 5334037118734740939}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61938,9 +63901,10 @@ GameObject:
   - component: {fileID: 3745622626971466114}
   - component: {fileID: 5334037118888038172}
   - component: {fileID: 4539702728687719363}
+  - component: {fileID: 5334037118888038173}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61956,6 +63920,7 @@ GameObject:
   - component: {fileID: 3745622626560198626}
   - component: {fileID: 5334037119047577980}
   - component: {fileID: 4539702728544775587}
+  - component: {fileID: 5334037119047577981}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -61974,9 +63939,10 @@ GameObject:
   - component: {fileID: 3745622626691357118}
   - component: {fileID: 5334037119185186592}
   - component: {fileID: 4539702728407626751}
+  - component: {fileID: 5334037119185186593}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63274,7 +65240,7 @@ Transform:
   m_GameObject: {fileID: 832149486155913044}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071069, y: 0, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: -0.93, y: 4.5612698, z: 0}
+  m_LocalPosition: {x: -0.8, y: 4.5612698, z: -0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -64851,6 +66817,48 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832149485232942332}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &5334037118229042313
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149485232942332}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953758, y: 0.039598934, z: 0.075585924}
+  m_Center: {x: 0.00000030546502, y: -0.000014732769, z: -0.007822017}
+--- !u!65 &5334037118229042314
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149485232942332}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953758, y: 0.039598934, z: 0.075585924}
+  m_Center: {x: 0.00000030546502, y: -0.000014732769, z: -0.007822017}
 --- !u!33 &5334037118337578411
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -64867,6 +66875,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832149485535814723}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &5334037118534409272
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149485535814723}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953754, y: 0.039598905, z: 0.07558589}
+  m_Center: {x: -0.000000052154036, y: -0.000014701857, z: -0.007822019}
 --- !u!33 &5334037118676334168
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -64883,6 +66912,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832149485738104254}
   m_Mesh: {fileID: -5495902117074765545, guid: 3bd781db92ff86d4fbe0ec9856522e8c, type: 3}
+--- !u!65 &5334037118734740939
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149485738104254}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.05382876, y: 0.017822552, z: 0.020318527}
+  m_Center: {x: -0.022943089, y: 0.008558394, z: 0.010186037}
 --- !u!33 &5334037118794833255
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -64899,6 +66949,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832149485907801960}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &5334037118888038173
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149485907801960}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953758, y: 0.039598934, z: 0.075585924}
+  m_Center: {x: 0.00000030546502, y: -0.0000147309065, z: -0.007822017}
 --- !u!33 &5334037119047577980
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -64907,6 +66978,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832149486016596232}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &5334037119047577981
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149486016596232}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953754, y: 0.039598912, z: 0.07558588}
+  m_Center: {x: 0.00000018626454, y: -0.000014731662, z: -0.007822018}
 --- !u!33 &5334037119185186592
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -64915,6 +67007,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832149486155913044}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &5334037119185186593
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149486155913044}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953754, y: 0.039598912, z: 0.07558588}
+  m_Center: {x: 0.00000018253925, y: -0.000014493244, z: -0.007822018}
 --- !u!33 &5334037119416392587
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -64963,6 +67076,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832149484869365220}
   m_Mesh: {fileID: -5495902117074765545, guid: 037208410bcb671488a5e7ffd0d953ff, type: 3}
+--- !u!65 &5334037119997744529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149484869365220}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07953756, y: 0.039598912, z: 0.07558588}
+  m_Center: {x: 0.00000019371517, y: -0.000014731662, z: -0.007822018}
 --- !u!33 &5334037120056831330
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -64987,6 +67121,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832149485001445333}
   m_Mesh: {fileID: -5495902117074765545, guid: 3bd781db92ff86d4fbe0ec9856522e8c, type: 3}
+--- !u!65 &5334037120129841058
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149485001445333}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.05382875, y: 0.017822549, z: 0.02031852}
+  m_Center: {x: -0.022943562, y: 0.008558424, z: 0.010186035}
 --- !u!33 &5334037120328631043
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -66152,13 +68307,35 @@ GameObject:
   - component: {fileID: 4083501150010565440}
   - component: {fileID: 3260616446813831533}
   - component: {fileID: 7762067043906558204}
+  - component: {fileID: 8707273951535463166}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &8707273951535463166
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707273951535463165}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.06248546, y: 0.06198648, z: 0.059962794}
+  m_Center: {x: 0.0045267628, y: 0.005538413, z: -0.0015479565}
 --- !u!1 &8707273952430998296
 GameObject:
   m_ObjectHideFlags: 0
@@ -66170,13 +68347,35 @@ GameObject:
   - component: {fileID: 4083501150939536037}
   - component: {fileID: 3260616448049133704}
   - component: {fileID: 7762067042671272217}
+  - component: {fileID: 8707273952430998297}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &8707273952430998297
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707273952430998296}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.062485464, y: 0.061986517, z: 0.05996282}
+  m_Center: {x: 0.0045267427, y: 0.005537952, z: -0.0015479561}
 --- !u!1 &8871199011369834038
 GameObject:
   m_ObjectHideFlags: 0
