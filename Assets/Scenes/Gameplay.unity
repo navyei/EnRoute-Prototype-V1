@@ -28541,7 +28541,6 @@ Transform:
   - {fileID: 1896758845}
   - {fileID: 268712896}
   - {fileID: 429156100}
-  - {fileID: 945659944}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &321151658
@@ -37136,7 +37135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &704059422
 Transform:
   m_ObjectHideFlags: 0
@@ -37153,6 +37152,7 @@ Transform:
   - {fileID: 1923142897}
   - {fileID: 1759343201}
   - {fileID: 248014612}
+  - {fileID: 945659944}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &706978073 stripped
@@ -41222,7 +41222,7 @@ Transform:
   m_GameObject: {fileID: 945659940}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -68, y: -0.79999924, z: -57}
+  m_LocalPosition: {x: 106.69998, y: 20.610003, z: -94.33}
   m_LocalScale: {x: 35.683743, y: 6.5242, z: 18.756351}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -41261,7 +41261,7 @@ Transform:
   - {fileID: 543450652079288476}
   - {fileID: 543450651867167373}
   - {fileID: 543450653185894850}
-  m_Father: {fileID: 321127466}
+  m_Father: {fileID: 704059422}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &947840718
 GameObject:
@@ -41771,7 +41771,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2669336, y: -3.4238033e-15, z: 1.836517e-15, w: 0.96371496}
+  m_LocalRotation: {x: 0.26693356, y: 0.000000028720944, z: -0.00000000795524, w: 0.96371496}
   m_LocalPosition: {x: 14, y: 20, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -45284,7 +45284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176047651}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2669336, y: -3.4238033e-15, z: 1.836517e-15, w: 0.96371496}
+  m_LocalRotation: {x: 0.26693356, y: 0.000000028720944, z: -0.00000000795524, w: 0.96371496}
   m_LocalPosition: {x: 14, y: 20, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -47479,7 +47479,7 @@ Transform:
   m_GameObject: {fileID: 1325414130}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -187.9, y: -21.41, z: 37.33}
+  m_LocalPosition: {x: -187.9, y: -8.67, z: -78.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -47518,8 +47518,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5236a454f1d4f341adb2cc6f9aa6b42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionObjectName: EventObject
-  sceneToLoad: Minigame 1
+  collisionObjectName: Start
+  sceneToLoad: MinigamesScene
 --- !u!1001 &1343905451
 PrefabInstance:
   m_ObjectHideFlags: 0
