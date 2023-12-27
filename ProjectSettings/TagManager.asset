@@ -13,6 +13,8 @@ TagManager:
   - M1
   - NPC
   - Aim Target
+  - Obstacle
+  - LeaveStation
   layers:
   - Default
   - TransparentFX

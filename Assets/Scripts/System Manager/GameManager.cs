@@ -1,11 +1,8 @@
 using Cinemachine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
 
-public class GameManager :MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
 
@@ -26,14 +23,14 @@ public class GameManager :MonoBehaviour
     public static bool SceneChangeInput;
     public bool InGame;
 
-    public int Score;
+    public static int Score;
     public int RequiredScore;
     public int CO2_Count;
     public bool MinigameWin;
 
     public Camera Camera;
+    public TMPro.TMP_Text ScoreCounter;
     public CinemachineVirtualCameraBase[] CameraDollies;
-
     private void Start()
     {
         GameManager.UpcomingScene = "";
@@ -55,9 +52,13 @@ public class GameManager :MonoBehaviour
     private void FixedUpdate()
     {
         Scene currentScene = SceneManager.GetActiveScene();
-        if (SceneChangeInput) 
+        if (SceneChangeInput)
         {
             SceneManager.LoadScene(UpcomingScene);
+        }
+        if (ScoreCounter != null)
+        {
+            ScoreCounter.text = "Score: " + Score.ToString();
         }
 
         if (mini1Win == true)
@@ -74,12 +75,11 @@ public class GameManager :MonoBehaviour
     public void PrevCamera()
     {
         SwitchCam(0);
-        Camera.orthographic = false;
     }
     public void NextCamera()
     {
         SwitchCam(1);
-        Camera.orthographic = true;
+
     }
 
     void SwitchCam(int IndexNumber)

@@ -8,18 +8,18 @@ public class TriggerScript : MonoBehaviour
     public Dialogue Dialogue;
     public GameObject DialogueIndicator;
     public float IndicatorCooldown = 5f;
+    public bool FinishDialogue;
     public GameObject AfterDialogueTarget;
     public Color HoverColor;
 
     private Color OriginalColor;
     private bool InDialogue;
-    private bool FinishDialogue;
 
     private void Start()
     {
-        OriginalColor = GetComponent<SpriteRenderer>().color;
         if (IsNPC)
         {
+            OriginalColor = GetComponent<SpriteRenderer>().color;
             if (DialogueIndicator == null)
             {
                 Debug.Log("NPC doesn't have Indicator!");
@@ -44,14 +44,13 @@ public class TriggerScript : MonoBehaviour
                     TriggerDialogue();
                     InDialogue = true;
                     FindObjectOfType<DialogueManager>().TriggerAdded = false;
-                    FinishDialogue = true;
                 }
             }
             else GetComponent<SpriteRenderer>().color = OriginalColor;
         }
         if (FinishDialogue)
         {
-
+            transform.position = Vector3.Lerp(transform.position, AfterDialogueTarget.transform.position, 0.1f);
         }
     }
     public void TriggerDialogue()
@@ -79,4 +78,37 @@ public class TriggerScript : MonoBehaviour
             DialogueIndicator.SetActive(false);
         }
     }
+
+    private List<GameObject> GOs = new List<GameObject>();
+    private void OnTriggerStay(Collider other)
+    {
+        if (!GOs.Contains(other.gameObject))
+        {
+            GOs.Add(other.gameObject);
+            MoveToCity();
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (GOs.Contains(other.gameObject))
+        {
+            GOs.Remove(other.gameObject);
+        }
+    }
+
+    void MoveToCity()
+    {
+        if (GOs.Count >= 2)
+        {
+            GameObject GO1 = GOs[0];
+            GameObject GO2 = GOs[1];
+            if (GO1.layer == 6 || GO1.layer == 7 || GO2.layer == 6 || GO2.layer == 7)
+            {
+                GameObject.Destroy(GO1);
+                GameObject.Destroy(GO2);
+                FindObjectOfType<GameplayManager>().LeaveStation();
+            }
+        }
+    }
+
 }

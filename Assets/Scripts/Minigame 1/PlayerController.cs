@@ -1,15 +1,12 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
     public TextMeshProUGUI gameOverText;
     public TextMeshProUGUI gameWinText;
-    
+
     private GameManager gameManager;
     public float movementSpeed = 5.0f;
     private float timeRemain = 20f;
@@ -35,9 +32,9 @@ public class PlayerController : MonoBehaviour
         }
         //if (gameEnded = true)
         //{
-           // return;
+        // return;
         //}
-        
+
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -53,7 +50,7 @@ public class PlayerController : MonoBehaviour
             LoseGame1();
         }
     }
-    
+
 
     void LoseGame1()
     {
@@ -65,18 +62,18 @@ public class PlayerController : MonoBehaviour
         Debug.Log("destected-------------1");
         // For now, we'll just reload the navigation scene
         GameManager.mini1Win = false;
-        gameOverText.enabled = true; 
+        gameOverText.enabled = true;
         Debug.Log("destected-------------2");
         SceneManager.LoadScene("Navigation");
         Debug.Log("MiniGame 1 lose");
-        
+
     }
 
     void WinGame1()
     {
         gameEnded = true;
         GameManager.mini1Win = true;
-        gameOverText.enabled = true; 
+        gameOverText.enabled = true;
         //SceneManager.LoadScene("Navigation");
         Debug.Log("MiniGame 1 Win");
     }

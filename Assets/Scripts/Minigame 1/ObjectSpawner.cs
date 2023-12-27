@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class ObjectSpawner : MonoBehaviour
 {
@@ -21,7 +18,7 @@ public class ObjectSpawner : MonoBehaviour
 
         // Update the timer
         timer += Time.deltaTime;
-        
+
         // Check if it's time to spawn a new object
         if (timer >= spawnInterval)
         {
@@ -31,7 +28,7 @@ public class ObjectSpawner : MonoBehaviour
             // Increase spawn area by 2 units
             spawnInterval += 2.0f;
         }
-        
+
     }
 
     private void SpawnObject()
@@ -60,33 +57,33 @@ public class ObjectSpawner : MonoBehaviour
     }
 
     //private void CheckForM1Collision()
-   // {
-        // Check if the player collides with an object tagged as "M1"
-       // Collider[] colliders = Physics.OverlapSphere(transform.position, 1.0f); // You might need to adjust the radius
-       // foreach (Collider collider in colliders)
-       // {
-       //     if (collider.CompareTag("M1"))
-       //     {
-        //        // Player collided with "M1," handle loss condition and change scene
-       //         HandleLoss();
-        //        Destroy(this.gameObject);
-      //      }
-       // }
-//   }
+    // {
+    // Check if the player collides with an object tagged as "M1"
+    // Collider[] colliders = Physics.OverlapSphere(transform.position, 1.0f); // You might need to adjust the radius
+    // foreach (Collider collider in colliders)
+    // {
+    //     if (collider.CompareTag("M1"))
+    //     {
+    //        // Player collided with "M1," handle loss condition and change scene
+    //         HandleLoss();
+    //        Destroy(this.gameObject);
+    //      }
+    // }
+    //   }
 
     //private void HandleLoss()
-   // {
-        //StopAllCoroutines();
-        // Add logic to handle loss (e.g., show game over screen, reset game, etc.)
-        // For now, we'll just reload the navigation scene
-       // gameManager.mini1Win = false;
-        //SceneManager.LoadScene("Navigation");
-   // }
+    // {
+    //StopAllCoroutines();
+    // Add logic to handle loss (e.g., show game over screen, reset game, etc.)
+    // For now, we'll just reload the navigation scene
+    // gameManager.mini1Win = false;
+    //SceneManager.LoadScene("Navigation");
+    // }
 
-   // IEnumerator Win()
+    // IEnumerator Win()
     //{
-        //yield return new WaitForSecondsRealtime(20f);
-        //gameManager.mini1Win = true;
-        //SceneManager.LoadScene("Nagivation");
-   // }
+    //yield return new WaitForSecondsRealtime(20f);
+    //gameManager.mini1Win = true;
+    //SceneManager.LoadScene("Nagivation");
+    // }
 }

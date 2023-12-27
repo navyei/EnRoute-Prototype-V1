@@ -1,14 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameplayManager : MonoBehaviour
 {
-    public GameObject[] NPCs;
-    public GameObject[] NPCSpawners;
+    public GameObject[] NPCInStation;
+    public GameObject VehiclesLeaving;
 
-    private void FixedUpdate()
+    public void LeaveStation()
     {
-        NPCs = GameObject.FindGameObjectsWithTag("NPC");
+        FindObjectOfType<GameManager>().NextCamera();
+        VehiclesLeaving.SetActive(true);
     }
 }

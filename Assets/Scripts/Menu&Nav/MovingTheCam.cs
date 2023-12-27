@@ -1,7 +1,4 @@
 using Cinemachine;
-using Cinemachine.Editor;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MovingTheCam : MonoBehaviour
@@ -14,7 +11,7 @@ public class MovingTheCam : MonoBehaviour
     public CinemachineVirtualCamera Dolly;
 
     private float MouseX;
-	private float MouseY;
+    private float MouseY;
     private CinemachineOrbitalTransposer OrbTrans;
 
     void Start()
@@ -43,7 +40,7 @@ public class MovingTheCam : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
-        else if (OrbTrans != null) 
+        else if (OrbTrans != null)
         {
             OrbTrans.m_XAxis.m_InputAxisName = "";
             OrbTrans.m_XAxis.m_InputAxisValue = 0f;

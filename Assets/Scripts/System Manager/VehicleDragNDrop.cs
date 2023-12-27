@@ -1,34 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Animations;
 
 public class VehicleDragNDrop : MonoBehaviour
 {
+    public int LayerNumber;
     public int Height;
     public int GridSize;
     public LayerMask Target;
 
-    public bool Hovering;
-
+    public bool Hovering { get; private set; }
+    private bool LayerApplied;
     private void Update()
     {
+        if (!LayerApplied)
+        {
+            gameObject.layer = LayerNumber;
+            LayerApplied = true;
+        }
         if (MouseHover())
         {
             Hovering = true;
         }
-        else
-        {
-            Hovering = false;
-        }
-        if (Input.GetKey(KeyCode.Mouse0) && Hovering)
+        else if (Input.GetKey(KeyCode.Mouse0) && Hovering)
         {
             Dragging();
         }
+        else if (!Input.GetKey(KeyCode.Mouse0))
+        {
+            Hovering = false;
+            GetComponent<Rigidbody>().constraints = ~RigidbodyConstraints.FreezePositionY;
+        }
+
     }
 
-    bool MouseHover()
+    private bool MouseHover()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
@@ -41,10 +45,11 @@ public class VehicleDragNDrop : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, Target))
         {
+            GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY;
             Vector3 OutputPos = new Vector3(hit.point.x, hit.point.y, hit.point.z);
             float GridX = Mathf.Round(OutputPos.x / GridSize) * GridSize;
             float GridZ = Mathf.Round(OutputPos.z / GridSize) * GridSize;
-            GetComponent<Rigidbody>().position = new Vector3(GridX, OutputPos.y + Height, GridZ);
+            GetComponent<Rigidbody>().MovePosition(new Vector3(GridX, OutputPos.y + Height, GridZ));
         }
     }
 }
