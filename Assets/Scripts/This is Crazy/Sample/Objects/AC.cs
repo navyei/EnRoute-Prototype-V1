@@ -5,6 +5,10 @@ using UnityEngine;
 public class ACController : InteractiveObject
 {
     private bool isOn = false;
+    public bool IsOn()
+    {
+        return isOn;
+    }
 
     public override void Interact()
     {
@@ -39,3 +43,4 @@ public class ACController : InteractiveObject
         // base.Interact();
     }
 }
+
