@@ -1,124 +1,112 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class NPCController : MonoBehaviour
 {
-    private Dictionary<string, bool> npcNeeds = new Dictionary<string, bool>();
-    private bool needsChosen = false;
+    public Text uiText; // Reference to the UI Text element
+    public RadioController radioController;
+    public ACController acController;
+    public PedalsController pedalsController;
+    public WindowButtonController windowButtonsController;
 
-    // Add a reference to your dialogue UI element
-    public Text dialogueText;
-
-    void Start()
+    private void Start()
     {
-        // Initialize random needs for each NPC
-        InitializeRandomNeeds();
-    }
-
-    void Update()
-    {
-        if (!needsChosen)
+        // Initialize your UI Text reference if needed
+        if (uiText == null)
         {
-            // Check and address needs
-            foreach (var need in npcNeeds)
+            uiText = GetComponentInChildren<Text>();
+            if (uiText == null)
             {
-                if (need.Value)
-                {
-                    HandleNeed(need.Key);
-                }
+                Debug.LogError("UI Text not found in NPC GameObject hierarchy!");
             }
         }
+
+        // Start asking for needs when the game begins
+        StartCoroutine(AskForNeeds());
     }
 
-    void InitializeRandomNeeds()
+    private IEnumerator AskForNeeds()
     {
-        // Define the possible needs
-        string[] possibleNeeds = { "Radio", "AC", "Pedals", "WindowButton" };
-
-        // Set all needs to false initially
-        foreach (var need in possibleNeeds)
+        if (radioController == null || acController == null || pedalsController == null || windowButtonsController == null || uiText == null)
         {
-            npcNeeds[need] = false;
+            Debug.LogError("One or more references in NPCController are not assigned!");
+            yield break; // Exit the coroutine early to prevent further errors
         }
 
-        // Shuffle the array to get random needs
-        System.Random rng = new System.Random();
-        int n = possibleNeeds.Length;
-        while (n > 1)
+        string[] needs = GetRandomNeeds();
+        DisplayDialogue($"I need the {needs[0]} and {needs[1]}. Please help!");
+        yield return WaitForInteractions(needs);
+        bool needsSatisfied = CheckNeedsSatisfied(needs);
+
+        if (needsSatisfied)
         {
-            n--;
-            int k = rng.Next(n + 1);
-            string value = possibleNeeds[k];
-            possibleNeeds[k] = possibleNeeds[n];
-            possibleNeeds[n] = value;
+            DisplayDialogue("Thank you! My needs are satisfied.");
         }
-
-        // Select the first two needs from the shuffled array
-        for (int i = 0; i < 2; i++)
+        else
         {
-            npcNeeds[possibleNeeds[i]] = true;
-        }
-
-        // Indicate that needs have been chosen
-        needsChosen = true;
-
-        // Display dialogue
-        DisplayDialogue("My needs are: " + string.Join(", ", npcNeeds.Keys));
-    }
-
-    void HandleNeed(string need)
-    {
-        // Implement logic to satisfy the specific need
-        switch (need)
-        {
-            case "Radio":
-                // Implement radio handling logic
-                Debug.Log("Handling Radio need");
-                break;
-
-            case "AC":
-                // Implement AC handling logic
-                Debug.Log("Handling AC need");
-                break;
-
-            case "Pedals":
-                // Implement pedals handling logic
-                Debug.Log("Handling Pedals need");
-                break;
-
-            case "WindowButton":
-                // Implement window button handling logic
-                Debug.Log("Handling WindowButton need");
-                break;
-
-            default:
-                break;
-        }
-
-        // Mark the need as satisfied
-        npcNeeds[need] = false;
-
-        // Display dialogue
-        DisplayDialogue("Thank you for satisfying my " + need + " need!");
-    }
-
-    void DisplayDialogue(string message)
-    {
-        // Display the dialogue on the UI
-        if (dialogueText != null)
-        {
-            dialogueText.text = message;
-
-            // Reset the dialogue after a delay (you can adjust the delay as needed)
-            StartCoroutine(ResetDialogue(3f));
+            DisplayDialogue("You didn't satisfy my needs. Try again next time.");
         }
     }
 
-    IEnumerator ResetDialogue(float delay)
+    private string[] GetRandomNeeds()
     {
-        yield return new WaitForSeconds(delay);
-        dialogueText.text = "";
+        string[] allNeeds = { "radio", "AC", "pedals", "window buttons" };
+        for (int i = 0; i < allNeeds.Length; i++)
+        {
+            int randomIndex = Random.Range(i, allNeeds.Length);
+            string temp = allNeeds[i];
+            allNeeds[i] = allNeeds[randomIndex];
+            allNeeds[randomIndex] = temp;
+        }
+        string[] randomNeeds = { allNeeds[0], allNeeds[1] };
+        return randomNeeds;
+    }
+
+    private void DisplayDialogue(string message)
+    {
+        if (uiText != null)
+        {
+            uiText.text = $"NPC: {message}";
+        }
+        else
+        {
+            Debug.LogWarning("UI Text is not assigned to the NPC!");
+        }
+    }
+
+    private IEnumerator WaitForInteractions(string[] needs)
+    {
+        // Implement your logic for waiting for player interactions
+        // For simplicity, let's wait for 5 seconds (replace this with your actual logic)
+        yield return new WaitForSeconds(5f);
+    }
+
+    private bool CheckNeedsSatisfied(string[] needs)
+    {
+        foreach (string need in needs)
+        {
+            switch (need)
+            {
+                case "radio":
+                    if (!radioController.IsOn())
+                        return false;
+                    break;
+                case "AC":
+                    if (!acController.IsOn())
+                        return false;
+                    break;
+                case "pedals":
+                    if (!pedalsController.IsPressed())
+                        return false;
+                    break;
+                case "window buttons":
+                    if (!windowButtonsController.IsOpen())
+                        return false;
+                    break;
+            }
+        }
+        return true;
     }
 }
+
