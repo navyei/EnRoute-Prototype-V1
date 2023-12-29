@@ -15,6 +15,7 @@ TagManager:
   - Aim Target
   - Obstacle
   - LeaveStation
+  - Car
   layers:
   - Default
   - TransparentFX
@@ -25,8 +26,8 @@ TagManager:
   - Taxi
   - Cooper
   - RaycastTarget
-  - 
-  - 
+  - Player
+  - World
   - 
   - 
   - 

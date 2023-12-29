@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InteractiveObject : MonoBehaviour
 {
+    public Camera raycastCamera; // Public variable to assign the camera in the Unity Editor
     protected Renderer rend;
     protected bool isLookingAtObject = false;
 
@@ -14,18 +15,20 @@ public class InteractiveObject : MonoBehaviour
 
     protected virtual void Update()
     {
-        CheckLookAtObject();
+        // Pass the assigned camera to the CheckLookAtObject method
+        CheckLookAtObject(raycastCamera);
     }
 
-    protected virtual void CheckLookAtObject()
+    // Modify the method to accept a camera parameter
+    protected virtual void CheckLookAtObject(Camera assignedCamera)
     {
-        if (rend != null)
+        if (rend != null && assignedCamera != null)
         {
             // Calculate the center of the screen
             Vector3 screenCenter = new Vector3(Screen.width / 2, Screen.height / 2, 0);
 
-            // Create a ray from the camera through the center of the screen
-            Ray ray = Camera.main.ScreenPointToRay(screenCenter);
+            // Create a ray from the assigned camera through the center of the screen
+            Ray ray = assignedCamera.ScreenPointToRay(screenCenter);
 
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject)
@@ -62,4 +65,6 @@ public class InteractiveObject : MonoBehaviour
         // Implement your generic interaction logic here
     }
 }
+
+
 

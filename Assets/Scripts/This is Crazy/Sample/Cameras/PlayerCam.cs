@@ -17,8 +17,8 @@ public class PlayerCamera : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
         CurrentRotationX = transform.localRotation.eulerAngles.x;
         CurrentRotationY = transform.localRotation.eulerAngles.y;
     }
