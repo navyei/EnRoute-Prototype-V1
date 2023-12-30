@@ -21,10 +21,7 @@ public class WorldCam : MonoBehaviour
         newPosition = transform.position;
         newRotation = transform.rotation;
         newZoom = cameraTransform.localPosition;
-
-        // Unlock and show cursor at the start
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        
     }
 
     void Update()
@@ -86,12 +83,7 @@ public class WorldCam : MonoBehaviour
         cameraTransform.localPosition = Vector3.Lerp(cameraTransform.localPosition, newZoom, Time.deltaTime * moveTime);
     }
 
-    // Toggle cursor visibility and lock state when switching to/from the World Camera
-    public void ToggleCursorVisibility(bool visible, bool lockState)
-    {
-        Cursor.visible = visible;
-        Cursor.lockState = lockState ? CursorLockMode.Locked : CursorLockMode.None;
-    }
+   
 }
 
 
