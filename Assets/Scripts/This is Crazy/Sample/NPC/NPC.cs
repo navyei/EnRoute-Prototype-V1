@@ -59,8 +59,6 @@ public class NPCController : MonoBehaviour
 
     private IEnumerator WaitForInteractions(string[] needs)
     {
-        // Implement your logic for waiting for player interactions
-        // For simplicity, let's wait until conditions are met (replace this with your actual logic)
         while (!AreInteractionsComplete())
         {
             yield return null; // Wait for the next frame
@@ -69,8 +67,6 @@ public class NPCController : MonoBehaviour
 
     private bool AreInteractionsComplete()
     {
-        // Implement your logic to check if interactions are complete
-        // For example, return true if the player presses a key or clicks a button
         return Input.GetKeyDown(KeyCode.Space); // Change this to your actual condition
     }
 
