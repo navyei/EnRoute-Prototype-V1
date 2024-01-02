@@ -15,6 +15,8 @@ public class CameraSwitcher : MonoBehaviour
     {
         // Initialize the cameras and UIs
         InitializeCameras();
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     void Update()
@@ -24,6 +26,8 @@ public class CameraSwitcher : MonoBehaviour
         {
             SwitchCamera(worldCamera);
             ShowUI(null);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
 
         // Switch to Player Camera 1 with the 1 key
@@ -31,6 +35,8 @@ public class CameraSwitcher : MonoBehaviour
         {
             SwitchCamera(playerCamera1);
             ShowUI(uiCanvas1);
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
 
         // Switch to Player Camera 2 with the 2 key
@@ -38,6 +44,8 @@ public class CameraSwitcher : MonoBehaviour
         {
             SwitchCamera(playerCamera2);
             ShowUI(uiCanvas2);
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
 
         // Switch to Player Camera 3 with the 3 key
@@ -45,6 +53,8 @@ public class CameraSwitcher : MonoBehaviour
         {
             SwitchCamera(playerCamera3);
             ShowUI(uiCanvas3);
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
     }
 
