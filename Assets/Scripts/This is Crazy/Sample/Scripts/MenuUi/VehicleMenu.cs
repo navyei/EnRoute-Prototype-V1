@@ -1,46 +1,37 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VehicleMenu : MonoBehaviour
 {
-    private NPCController npcController; // Reference to the NPCController
+    private NPCController npcController;
 
-    public void SetNPCController(NPCController controller)
+    public void SetNPCController(NPCController npcController)
     {
-        npcController = controller;
+        this.npcController = npcController;
     }
 
-    public void ChooseVehicle1()
+    public void OnVehicleButtonClick(string vehicleType)
     {
-        Debug.Log("Vehicle 1 chosen!");
-        // Add logic for handling Vehicle 1 selection here
-
-        // Hide the vehicle menu
         if (npcController != null)
         {
-            npcController.HideVehicleMenu();
+            npcController.RequestVehicleSpawn(vehicleType);
         }
 
-        // Turn off the canvas
-        gameObject.SetActive(false);
+        StartCoroutine(DestroyMenu());
     }
 
-    public void ChooseVehicle2()
+    private IEnumerator DestroyMenu()
     {
-        Debug.Log("Vehicle 2 chosen!");
-        // Add logic for handling Vehicle 2 selection here
-
-        // Hide the vehicle menu
-        if (npcController != null)
-        {
-            npcController.HideVehicleMenu();
-        }
-
-        // Turn off the canvas
-        gameObject.SetActive(false);
+        yield return new WaitForSeconds(0.2f);
+        Destroy(gameObject);
     }
 }
+
+
+
+
+
 
 
 

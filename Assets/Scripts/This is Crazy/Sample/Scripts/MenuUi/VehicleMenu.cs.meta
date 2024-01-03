@@ -3,7 +3,9 @@ guid: bf773b65e389a364d8afc78c5d85cc86
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - taxiPrefab: {fileID: 1244255566038807040, guid: 64085d982bd98254795de318f29e4338, type: 3}
+  - carPrefab: {fileID: 2750747168967964774, guid: ed4f17fd2948f2543bbb9c9975102420, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

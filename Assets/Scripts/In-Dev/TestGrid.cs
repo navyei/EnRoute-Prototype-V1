@@ -11,12 +11,7 @@ public class TestGrid : MonoBehaviour
     private GameObject[] tiles;
     private BoxCollider bc;
 
-    private void Start()
-    {
-        bc = GetComponent<BoxCollider>();
-        GameObject[] nextTo = 
-        tiles.AddRange
-    }
+  
 
     private void FixedUpdate()
     {
