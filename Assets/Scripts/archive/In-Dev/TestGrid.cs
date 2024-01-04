@@ -16,7 +16,7 @@ public class TestGrid : MonoBehaviour
     private void FixedUpdate()
     {
         TickCooldown();
-        foreach (GameObject a in grid)
+        foreach (GameObject a in tiles)
         {
             if (a.CompareTag("Path"))
             {
