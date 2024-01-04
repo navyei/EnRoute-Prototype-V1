@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NPCController : MonoBehaviour
+public class NPCCar : MonoBehaviour
 {
     public Text uiText;
     public RadioController radioController;
