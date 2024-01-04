@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2329517285649863953}
   - component: {fileID: 4657710962532751267}
   - component: {fileID: 6682363930461680204}
-  - component: {fileID: -4309957457147471758}
   m_Layer: 0
   m_Name: BuildingPlaceholder
   m_TagString: Path
@@ -106,18 +105,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.1, y: 1, z: 1.1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-4309957457147471758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7026498206417926619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d7941142d459e646bed4b7486d3254a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  passengers:
-  - {fileID: 8870933039043559222, guid: c430df1a11603bd41b69d0121ad151c2, type: 3}
-  grid: []
