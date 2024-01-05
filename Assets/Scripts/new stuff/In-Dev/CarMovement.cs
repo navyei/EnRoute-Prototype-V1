@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngineInternal;
 
 public class CarController : MonoBehaviour
 {
     public Vector3 newPosition;
     public float moveSpeed;
     public float moveTime;
+    public float rotateSpeed;
 
     private Rigidbody rb;
 
@@ -20,26 +22,11 @@ public class CarController : MonoBehaviour
     {
         float verti = Input.GetAxis("Vertical");
         float hori = Input.GetAxis("Horizontal");
-        if (verti >= 0)
-        {
-            newPosition += (transform.forward * moveSpeed);
-        }
-        else if (verti <= 0)
-        {
-            newPosition += (transform.forward * -moveSpeed);
-        }
-        if (hori >= 0)
-        {
-            newPosition += (transform.right * moveSpeed);
-        }
-        else if (hori <= 0)
-        {
-            newPosition += (transform.right * -moveSpeed);
-        }
-        transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime * moveTime);
-        if (verti == 0 && hori == 0)
-        {
-
-        }
+        Vector3 speed = transform.rotation * new Vector3(0f, 0f, verti * moveSpeed * Time.deltaTime);
+        speed.y = Mathf.Lerp(0f, Physics.gravity.y, Time.deltaTime);
+        rb.AddForce(speed);
+        float rotate = hori * rotateSpeed * 10 * Time.deltaTime;
+        transform.Rotate(Vector3.up, rotate);
+        Debug.Log(rb.velocity);
     }
 }
