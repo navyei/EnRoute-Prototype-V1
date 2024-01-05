@@ -775,8 +775,6 @@ GameObject:
   - component: {fileID: 4489597043749315999}
   - component: {fileID: 2241047278126392848}
   - component: {fileID: 8436264729878421427}
-  - component: {fileID: 5089891314407614220}
-  - component: {fileID: 3816666229606196828}
   m_Layer: 0
   m_Name: boi
   m_TagString: Untagged
@@ -900,48 +898,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20, y: 20, z: 0.2}
   m_Center: {x: -0.020000458, y: 9.646, z: 0}
---- !u!114 &5089891314407614220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7215343516264403214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86681f27a60ead9428c5dd115cbff904, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ThingToLookAt: {fileID: 0}
---- !u!114 &3816666229606196828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7215343516264403214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f674f732ff2770647b09ebda081e581b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Dialogue:
-    Name: Kid
-    Sentences:
-    - The alarm went off, waking the boy up. It was a rather sunny day, a bit cloudy
-      in weather.
-    - '"*yawns* How long was I asleep for?"'
-    - '"That was a rather good night sleep. Surely, I''m not late for..."'
-    - The boy checks his phone.
-    - '"Huh?!"'
-    - '"It''s 6:50??? Class starts at 7!"'
-    - '"I''ve got to get ready and head there, fast!"'
-    - '"I can run, but that would be bad for my lungs..."'
-    - '"But I''m scared the other vehicles will be slow!"'
-    - '"Ugh... Let''s just get ready first and head out. How did I sleep through
-      my alarms, anyways?"'
-  HoverColor: {r: 1, g: 1, b: 1, a: 1}
-  TalkIndicator: {fileID: 608667452320979223}
 --- !u!1 &7243876493893426854
 GameObject:
   m_ObjectHideFlags: 0

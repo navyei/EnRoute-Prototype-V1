@@ -12,8 +12,8 @@ public class MultiPurposeInput : MonoBehaviour
     //Input with Buttons
     public void SceneChangeInput()
     {
-        GameManager.UpcomingScene = NextScene;
-        GameManager.SceneChangeInput = true;
+        GameManager.Instance.UpcomingScene = NextScene;
+        GameManager.Instance.SceneChangeInput = true;
     }
     public void ScoreCounter()
     {

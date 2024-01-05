@@ -12,8 +12,8 @@ public class Timer : MonoBehaviour
         }
         else
         {
-            GameManager.UpcomingScene = "Gameplay";
-            GameManager.SceneChangeInput = true;
+            GameManager.Instance.UpcomingScene = "Gameplay";
+            GameManager.Instance.SceneChangeInput = true;
         }
     }
 }

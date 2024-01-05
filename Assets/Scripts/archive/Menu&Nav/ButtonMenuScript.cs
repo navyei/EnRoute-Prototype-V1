@@ -20,8 +20,8 @@ public class ButtonMenuScript : MonoBehaviour
     public void MainMenu()
     {
         Time.timeScale = 1;
-        GameManager.UpcomingScene = "MainMenu";
-        GameManager.SceneChangeInput = true;
+        GameManager.Instance.UpcomingScene = "MainMenu";
+        GameManager.Instance.SceneChangeInput = true;
     }
     public void QuitGame()
     {
