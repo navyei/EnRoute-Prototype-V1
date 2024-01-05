@@ -13615,7 +13615,7 @@ MonoBehaviour:
   newPosition: {x: 0, y: 0, z: 0}
   moveSpeed: 1000
   moveTime: 5
-  rotateSpeed: 0
+  rotateSpeed: 5
 --- !u!65 &9161361477196032384
 BoxCollider:
   m_ObjectHideFlags: 0
