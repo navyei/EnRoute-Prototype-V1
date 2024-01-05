@@ -9,7 +9,7 @@ public class CarController : MonoBehaviour
     public Vector3 newPosition;
     public float moveSpeed;
     public float moveTime;
-    public float rotateSpeed;
+    public float rotateSpeed = 5f;
 
     private Rigidbody rb;
 
