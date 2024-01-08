@@ -4,19 +4,16 @@ public class CameraSwitcher : MonoBehaviour
 {
     public Camera worldCamera;
     public Camera playerCamera1;
-    public Camera playerCamera2;
-    public Camera playerCamera3;
-
     public Canvas uiCanvas1;
-    public Canvas uiCanvas2;
-    public Canvas uiCanvas3;
+    public CarController carController; // Reference to the CarController script
 
     void Start()
     {
         // Initialize the cameras and UIs
         InitializeCameras();
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        ToggleCarController(false);
     }
 
     void Update()
@@ -26,8 +23,9 @@ public class CameraSwitcher : MonoBehaviour
         {
             SwitchCamera(worldCamera);
             ShowUI(null);
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            ToggleCarController(false); // Disable CarController
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
 
         // Switch to Player Camera 1 with the 1 key
@@ -35,24 +33,7 @@ public class CameraSwitcher : MonoBehaviour
         {
             SwitchCamera(playerCamera1);
             ShowUI(uiCanvas1);
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }
-
-        // Switch to Player Camera 2 with the 2 key
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            SwitchCamera(playerCamera2);
-            ShowUI(uiCanvas2);
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }
-
-        // Switch to Player Camera 3 with the 3 key
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            SwitchCamera(playerCamera3);
-            ShowUI(uiCanvas3);
+            ToggleCarController(true); // Enable CarController
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
@@ -63,8 +44,6 @@ public class CameraSwitcher : MonoBehaviour
         // Disable all cameras
         worldCamera.enabled = false;
         playerCamera1.enabled = false;
-        playerCamera2.enabled = false;
-        playerCamera3.enabled = false;
 
         // Enable the selected camera
         newCamera.enabled = true;
@@ -74,8 +53,6 @@ public class CameraSwitcher : MonoBehaviour
     {
         // Disable all UI canvases
         if (uiCanvas1 != null) uiCanvas1.enabled = false;
-        if (uiCanvas2 != null) uiCanvas2.enabled = false;
-        if (uiCanvas3 != null) uiCanvas3.enabled = false;
 
         // Enable the UI canvas corresponding to the active camera
         if (uiCanvas != null) uiCanvas.enabled = true;
@@ -87,7 +64,24 @@ public class CameraSwitcher : MonoBehaviour
         SwitchCamera(worldCamera);
         ShowUI(null);
     }
+
+    void ToggleCarController(bool enable)
+    {
+        // Enable or disable the CarController script based on the provided boolean value
+        if (carController != null)
+        {
+            carController.enabled = enable;
+        }
+
+        // Disable the Rigidbody component to ensure the car stops moving
+        if (carController != null && carController.GetComponent<Rigidbody>() != null)
+        {
+            carController.GetComponent<Rigidbody>().isKinematic = !enable;
+        }
+    }
 }
+
+
 
 
 

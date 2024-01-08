@@ -1,9 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngineInternal;
 
 public class CarController : MonoBehaviour
 {
@@ -24,12 +19,27 @@ public class CarController : MonoBehaviour
             wheelPos[i] = frontWheels[i].transform.localPosition;
         }
     }
+
     private void Update()
+    {
+        if (IsCarActive())
+        {
+            HandleCarMovement();
+        }
+    }
+
+    bool IsCarActive()
+    {
+        // Add any additional conditions to check if the car should be active
+        return enabled;
+    }
+
+    void HandleCarMovement()
     {
         float verti = Input.GetAxis("Vertical");
         float hori = Input.GetAxis("Horizontal");
 
-        //Adds gravity
+        // Adds gravity
         rb.AddForce(0f, Physics.gravity.y * Time.deltaTime, 0f);
         foreach (var wheel in frontWheels)
         {
@@ -37,16 +47,19 @@ public class CarController : MonoBehaviour
         }
         backWheels.GetComponent<Rigidbody>().AddForce(0f, Physics.gravity.y * Time.deltaTime, 0f);
 
-        //Adds force to wheels
-        Vector3 speed = transform.rotation * new Vector3(0f, Physics.gravity.y * Time.deltaTime, verti * moveSpeed * Time.deltaTime);
-        backWheels.GetComponent<Rigidbody>().AddForce(speed);
-        foreach (var wheel in frontWheels)
+        // Adds force to wheels only if the script is active
+        if (IsCarActive())
         {
-            Vector3 frontSpeed = wheel.transform.localRotation * speed;
-            wheel.GetComponent<Rigidbody>().AddForce(frontSpeed);
+            Vector3 speed = transform.rotation * new Vector3(0f, Physics.gravity.y * Time.deltaTime, verti * moveSpeed * Time.deltaTime);
+            backWheels.GetComponent<Rigidbody>().AddForce(speed);
+            foreach (var wheel in frontWheels)
+            {
+                Vector3 frontSpeed = wheel.transform.localRotation * speed;
+                wheel.GetComponent<Rigidbody>().AddForce(frontSpeed);
+            }
         }
 
-        //Rotates wheels
+        // Rotates wheels
         float rotate = hori * rotateSpeed * 10 * Time.deltaTime;
         foreach (var wheel in frontWheels)
         {
@@ -57,11 +70,11 @@ public class CarController : MonoBehaviour
         }
         backWheels.transform.rotation = transform.rotation;
 
-        //Keeping front wheels in place
-        for (int i = 0;i < frontWheels.Length;i++)
+        // Keeping front wheels in place
+        for (int i = 0; i < frontWheels.Length; i++)
         {
             frontWheels[i].transform.localPosition = wheelPos[i];
         }
-        Debug.Log(rb.velocity.magnitude);
+        //Debug.Log(rb.velocity.magnitude);
     }
 }

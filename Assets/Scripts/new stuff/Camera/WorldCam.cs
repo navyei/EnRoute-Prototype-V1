@@ -21,7 +21,7 @@ public class WorldCam : MonoBehaviour
         newPosition = transform.position;
         newRotation = transform.rotation;
         newZoom = cameraTransform.localPosition;
-        
+
     }
 
     void Update()
@@ -83,7 +83,7 @@ public class WorldCam : MonoBehaviour
         cameraTransform.localPosition = Vector3.Lerp(cameraTransform.localPosition, newZoom, Time.deltaTime * moveTime);
     }
 
-   
+
 }
 
 
