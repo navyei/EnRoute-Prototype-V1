@@ -18,5 +18,12 @@ public class ScrollingBackground : MonoBehaviour
     {
         float newPosition = Mathf.Repeat(Time.time * scrollSpeed, tileSizeX);
         transform.position = startPosition + Vector3.right * newPosition;
+
+        // Check if the edge of the background has reached the reset point
+        if (newPosition >= tileSizeX)
+        {
+            transform.position = startPosition;
+        }
     }
 }
+
