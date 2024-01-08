@@ -5,18 +5,24 @@ public class CarController : MonoBehaviour
     public float moveSpeed = 5f;
     public float rotateSpeed = 5f;
     public GameObject[] frontWheels;
-    public GameObject backWheels;
+    public GameObject[] backWheels;
 
     private Rigidbody rb;
-    private Vector3[] wheelPos;
+    private Vector3[] frontWheelPos;
+    private Vector3[] backWheelPos;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        wheelPos = new Vector3[frontWheels.Length];
+        frontWheelPos = new Vector3[frontWheels.Length];
         for (int i = 0; i < frontWheels.Length; i++)
         {
-            wheelPos[i] = frontWheels[i].transform.localPosition;
+            frontWheelPos[i] = frontWheels[i].transform.localPosition;
+        }
+        backWheelPos = new Vector3[backWheels.Length];
+        for (int i = 0; i < backWheels.Length; i++)
+        {
+            backWheelPos[i] = backWheels[i].transform.localPosition;
         }
     }
 
@@ -45,13 +51,19 @@ public class CarController : MonoBehaviour
         {
             wheel.GetComponent<Rigidbody>().AddForce(0f, Physics.gravity.y * Time.deltaTime, 0f);
         }
-        backWheels.GetComponent<Rigidbody>().AddForce(0f, Physics.gravity.y * Time.deltaTime, 0f);
+        foreach (var wheel in backWheels)
+        {
+            wheel.GetComponent<Rigidbody>().AddForce(0f, Physics.gravity.y * Time.deltaTime, 0f);
+        }
 
         // Adds force to wheels only if the script is active
         if (IsCarActive())
         {
             Vector3 speed = transform.rotation * new Vector3(0f, Physics.gravity.y * Time.deltaTime, verti * moveSpeed * Time.deltaTime);
-            backWheels.GetComponent<Rigidbody>().AddForce(speed);
+            foreach (var wheel in backWheels)
+            {
+                wheel.GetComponent<Rigidbody>().AddForce(speed);
+            }
             foreach (var wheel in frontWheels)
             {
                 Vector3 frontSpeed = wheel.transform.localRotation * speed;
@@ -68,12 +80,19 @@ public class CarController : MonoBehaviour
             Quaternion newRotation = Quaternion.Euler(0f, Mathf.Clamp(Mathf.DeltaAngle(0, currentRotation.eulerAngles.y), -50f, 50f), 0f);
             wheel.transform.localRotation = newRotation;
         }
-        backWheels.transform.rotation = transform.rotation;
+        foreach (var wheel in backWheels)
+        {
+            wheel.transform.rotation = transform.rotation;
+        }
 
         // Keeping front wheels in place
         for (int i = 0; i < frontWheels.Length; i++)
         {
-            frontWheels[i].transform.localPosition = wheelPos[i];
+            frontWheels[i].transform.localPosition = frontWheelPos[i];
+        }
+        for (int i = 0; i < backWheels.Length; i++)
+        {
+            backWheels[i].transform.localPosition = backWheelPos[i];
         }
         //Debug.Log(rb.velocity.magnitude);
     }
