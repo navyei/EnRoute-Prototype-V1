@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScrollingBackground : MonoBehaviour
+public class BackgroundScrolling : MonoBehaviour
 {
     public float scrollSpeed;
     public float tileSizeX;
@@ -18,12 +18,6 @@ public class ScrollingBackground : MonoBehaviour
     {
         float newPosition = Mathf.Repeat(Time.time * scrollSpeed, tileSizeX);
         transform.position = startPosition + Vector3.right * newPosition;
-
-        // Check if the edge of the background has reached the reset point
-        if (newPosition >= tileSizeX)
-        {
-            transform.position = startPosition;
-        }
     }
 }
 
