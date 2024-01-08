@@ -19,8 +19,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public static string UpcomingScene;
-    public static bool SceneChangeInput;
+    public string UpcomingScene;
+    public bool SceneChangeInput;
     public bool InGame;
 
     public static int Score;
@@ -33,12 +33,6 @@ public class GameManager : MonoBehaviour
     public CinemachineVirtualCameraBase[] CameraDollies;
     private void Start()
     {
-        GameManager.UpcomingScene = "";
-        GameManager.SceneChangeInput = false;
-        Scene CurrentScene = SceneManager.GetActiveScene();
-        if (CurrentScene.name == "Gameplay") InGame = true;
-        else InGame = false;
-
         //In-Game Camera Switching Pt.1 (Do not change)
         if (InGame)
         {
