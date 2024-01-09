@@ -4,6 +4,7 @@ public class CarController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float rotateSpeed = 5f;
+    public GameObject steeringWheel;
     public GameObject[] frontWheels;
     public GameObject[] backWheels;
 
@@ -73,11 +74,13 @@ public class CarController : MonoBehaviour
 
         // Rotates wheels
         float rotate = hori * rotateSpeed * 10 * Time.deltaTime;
+        steeringWheel.transform.Rotate(Vector3.right, rotate);
+        Quaternion steerRotation = Quaternion.Euler(0f, 0f, Mathf.Clamp(Mathf.DeltaAngle(0, steeringWheel.transform.localRotation.eulerAngles.z), -50f, 50f));
+        steeringWheel.transform.localRotation = steerRotation;
         foreach (var wheel in frontWheels)
         {
             wheel.transform.Rotate(Vector3.up, rotate);
-            Quaternion currentRotation = wheel.transform.localRotation;
-            Quaternion newRotation = Quaternion.Euler(0f, Mathf.Clamp(Mathf.DeltaAngle(0, currentRotation.eulerAngles.y), -50f, 50f), 0f);
+            Quaternion newRotation = Quaternion.Euler(0f, Mathf.Clamp(Mathf.DeltaAngle(0, wheel.transform.localRotation.eulerAngles.y), -50f, 50f), 0f);
             wheel.transform.localRotation = newRotation;
         }
         foreach (var wheel in backWheels)

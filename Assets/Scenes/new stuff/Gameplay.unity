@@ -8974,6 +8974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 12000
   rotateSpeed: 8
+  steeringWheel: {fileID: 1619858762064717530}
   frontWheels:
   - {fileID: 746091450}
   - {fileID: 1186161274}
