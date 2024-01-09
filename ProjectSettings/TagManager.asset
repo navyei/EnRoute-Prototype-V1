@@ -16,6 +16,7 @@ TagManager:
   - Obstacle
   - LeaveStation
   - Car
+  - Customer
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - RaycastTarget
   - Player
   - World
-  - 
+  - Customer
   - 
   - 
   - 
