@@ -8,6 +8,8 @@ public class CarController : MonoBehaviour
     public GameObject[] frontWheels;
     public GameObject[] backWheels;
 
+    private GameObject currentCustomer;
+
     private Rigidbody rb;
     private Vector3[] frontWheelPos;
     private Vector3[] backWheelPos;
@@ -32,6 +34,45 @@ public class CarController : MonoBehaviour
         if (IsCarActive())
         {
             HandleCarMovement();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (currentCustomer != null)
+            {
+                DropOffCustomer();
+            }
+            else
+            {
+                PickUpCustomer();
+            }
+        }
+    }
+
+    void PickUpCustomer()
+    {
+        // Adjust the parameters of Physics.OverlapSphere to match your scene
+        Collider[] colliders = Physics.OverlapSphere(transform.position, 5f, LayerMask.GetMask("Customer"));
+
+        if (colliders.Length > 0)
+        {
+            currentCustomer = colliders[0].gameObject;
+            currentCustomer.SetActive(false);
+            Debug.Log("Picked up customer!");
+        }
+    }
+
+
+    void DropOffCustomer()
+    {
+        if (currentCustomer != null)
+        {
+            // Replace this with your logic for dropping off the customer.
+            // For simplicity, we just set the customer's position to the car's position.
+            currentCustomer.SetActive(true);
+            currentCustomer.transform.position = transform.position;
+            currentCustomer = null;
+            Debug.Log("Dropped off customer!");
         }
     }
 
