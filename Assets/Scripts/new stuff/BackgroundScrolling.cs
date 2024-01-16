@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackgroundScrolling : MonoBehaviour
+public class ScrollingBackground : MonoBehaviour
 {
     public float scrollSpeed;
-    public float tileSizeX;
+    public float tileSizeX; // Set this to the actual width of your sprite in Unity units
 
     private Vector3 startPosition;
 
@@ -20,4 +20,6 @@ public class BackgroundScrolling : MonoBehaviour
         transform.position = startPosition + Vector3.right * newPosition;
     }
 }
+
+
 
