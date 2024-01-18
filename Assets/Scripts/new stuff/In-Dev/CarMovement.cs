@@ -2,31 +2,23 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float rotateSpeed = 5f;
-    public GameObject steeringWheel;
-    public GameObject[] frontWheels;
-    public GameObject[] backWheels;
+    public float motorTorque = 2000;
+    public float brakeTorque = 2000;
+    public float maxSpeed = 20;
+    public float steeringRange = 30;
+    public float steeringRangeAtMaxSpeed = 10;
+    public float centreOfGravityOffset = -1f;
 
     private GameObject currentCustomer;
 
-    private Rigidbody rb;
-    private Vector3[] frontWheelPos;
-    private Vector3[] backWheelPos;
+    WheelControl[] wheels;
+    Rigidbody rigidBody;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        frontWheelPos = new Vector3[frontWheels.Length];
-        for (int i = 0; i < frontWheels.Length; i++)
-        {
-            frontWheelPos[i] = frontWheels[i].transform.localPosition;
-        }
-        backWheelPos = new Vector3[backWheels.Length];
-        for (int i = 0; i < backWheels.Length; i++)
-        {
-            backWheelPos[i] = backWheels[i].transform.localPosition;
-        }
+        rigidBody = GetComponent<Rigidbody>();
+        rigidBody.centerOfMass += Vector3.up * centreOfGravityOffset;
+        wheels = GetComponentsInChildren<WheelControl>();
     }
 
     private void Update()
@@ -84,60 +76,37 @@ public class CarController : MonoBehaviour
 
     void HandleCarMovement()
     {
-        float verti = Input.GetAxis("Vertical");
-        float hori = Input.GetAxis("Horizontal");
-
-        // Adds gravity
-        rb.AddForce(0f, Physics.gravity.y * Time.deltaTime, 0f);
-        foreach (var wheel in frontWheels)
-        {
-            wheel.GetComponent<Rigidbody>().AddForce(0f, Physics.gravity.y * Time.deltaTime, 0f);
-        }
-        foreach (var wheel in backWheels)
-        {
-            wheel.GetComponent<Rigidbody>().AddForce(0f, Physics.gravity.y * Time.deltaTime, 0f);
-        }
-
-        // Adds force to wheels only if the script is active
+        float vInput = Input.GetAxis("Vertical");
+        float hInput = Input.GetAxis("Horizontal");
         if (IsCarActive())
         {
-            Vector3 speed = transform.rotation * new Vector3(0f, Physics.gravity.y * Time.deltaTime, verti * moveSpeed * Time.deltaTime);
-            foreach (var wheel in backWheels)
-            {
-                wheel.GetComponent<Rigidbody>().AddForce(speed);
-            }
-            foreach (var wheel in frontWheels)
-            {
-                Vector3 frontSpeed = wheel.transform.localRotation * speed;
-                wheel.GetComponent<Rigidbody>().AddForce(frontSpeed);
-            }
-        }
+            float forwardSpeed = Vector3.Dot(transform.forward, rigidBody.velocity);
+            float speedFactor = Mathf.InverseLerp(0, maxSpeed, forwardSpeed);
+            float currentMotorTorque = Mathf.Lerp(motorTorque, 0, speedFactor);
+            float currentSteerRange = Mathf.Lerp(steeringRange, steeringRangeAtMaxSpeed, speedFactor);
+            bool isAccelerating = Mathf.Sign(vInput) == Mathf.Sign(forwardSpeed);
 
-        // Rotates wheels
-        float rotate = hori * rotateSpeed * 10 * Time.deltaTime;
-        steeringWheel.transform.Rotate(Vector3.right, rotate);
-        Quaternion steerRotation = Quaternion.Euler(0f, 0f, Mathf.Clamp(Mathf.DeltaAngle(0, steeringWheel.transform.localRotation.eulerAngles.z), -50f, 50f));
-        steeringWheel.transform.localRotation = steerRotation;
-        foreach (var wheel in frontWheels)
-        {
-            wheel.transform.Rotate(Vector3.up, rotate);
-            Quaternion newRotation = Quaternion.Euler(0f, Mathf.Clamp(Mathf.DeltaAngle(0, wheel.transform.localRotation.eulerAngles.y), -50f, 50f), 0f);
-            wheel.transform.localRotation = newRotation;
-        }
-        foreach (var wheel in backWheels)
-        {
-            wheel.transform.rotation = transform.rotation;
-        }
+            foreach (var wheel in wheels)
+            {
+                if (wheel.steerable)
+                {
+                    wheel.WheelCollider.steerAngle = hInput * currentSteerRange;
+                }
 
-        // Keeping front wheels in place
-        for (int i = 0; i < frontWheels.Length; i++)
-        {
-            frontWheels[i].transform.localPosition = frontWheelPos[i];
+                if (isAccelerating)
+                {
+                    if (wheel.motorized)
+                    {
+                        wheel.WheelCollider.motorTorque = vInput * currentMotorTorque;
+                    }
+                    wheel.WheelCollider.brakeTorque = 0;
+                }
+                else
+                {
+                    wheel.WheelCollider.brakeTorque = Mathf.Abs(vInput) * brakeTorque;
+                    wheel.WheelCollider.motorTorque = 0;
+                }
+            }
         }
-        for (int i = 0; i < backWheels.Length; i++)
-        {
-            backWheels[i].transform.localPosition = backWheelPos[i];
-        }
-        //Debug.Log(rb.velocity.magnitude);
     }
 }
