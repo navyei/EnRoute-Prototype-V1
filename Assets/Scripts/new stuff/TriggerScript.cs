@@ -5,7 +5,6 @@ using UnityEngine;
 public class TriggerScript : MonoBehaviour
 {
     public bool IsNPC;
-    public Dialogue Dialogue;
     public GameObject DialogueIndicator;
     public float IndicatorCooldown = 5f;
     public bool FinishDialogue;
@@ -43,7 +42,6 @@ public class TriggerScript : MonoBehaviour
                 {
                     TriggerDialogue();
                     InDialogue = true;
-                    FindObjectOfType<DialogueManager>().TriggerAdded = false;
                 }
             }
             else GetComponent<SpriteRenderer>().color = OriginalColor;
@@ -55,7 +53,6 @@ public class TriggerScript : MonoBehaviour
     }
     public void TriggerDialogue()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(Dialogue);
     }
 
     bool MouseHover()
@@ -106,7 +103,6 @@ public class TriggerScript : MonoBehaviour
             {
                 GameObject.Destroy(GO1);
                 GameObject.Destroy(GO2);
-                FindObjectOfType<GameplayManager>().LeaveStation();
             }
         }
     }
