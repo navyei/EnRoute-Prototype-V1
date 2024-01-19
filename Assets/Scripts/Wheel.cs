@@ -20,10 +20,6 @@ namespace Warthog
         [SerializeField] [Range(-1, 1)] private float steerInput = 0f;
         [SerializeField] [Range(-1, 1)] private float throttle = 0f;
 
-        [Header("Effects")]
-        [SerializeField] ParticleSystem dustTrail = null;
-        [SerializeField] ParticleSystem dirtDots = null;
-
         [Header("Debug")]
         [SerializeField] private float torque = 0f;
 
@@ -54,33 +50,6 @@ namespace Warthog
 
             ApplyTorque();
             ApplyBrake();
-
-            PlayEffects();
-        }
-
-        private void PlayEffects()
-        {
-            if (wheel.rpm > 5f && wheel.isGrounded)
-                PlayParticleSystem(dustTrail);
-            else
-                StopParticleSystem(dustTrail);
-
-            if (torque > 0f && wheel.isGrounded)
-                PlayParticleSystem(dirtDots);
-            else
-                StopParticleSystem(dirtDots);
-        }
-
-        private void PlayParticleSystem(ParticleSystem system)
-        {
-            if (system.isStopped)
-                system.Play();
-        }
-
-        private void StopParticleSystem(ParticleSystem system)
-        {
-            if (system.isPlaying)
-                system.Stop();
         }
 
         private void ApplyBrake()
