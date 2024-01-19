@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/new stuff/Gameplay.unity
     guid: e9a77d29371c0f64695f12aeef1ad6d5
+  - enabled: 1
+    path: Assets/Scenes/new stuff/ComingSoon.unity
+    guid: 729430444dc6b0347b575565af53c2d1
   m_configObjects: {}
