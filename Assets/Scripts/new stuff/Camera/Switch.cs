@@ -1,11 +1,12 @@
 using UnityEngine;
+using Warthog;
 
 public class CameraSwitcher : MonoBehaviour
 {
     public Camera worldCamera;
     public Camera playerCamera1;
     public Canvas uiCanvas1;
-    public CarController carController; // Reference to the CarController script
+    public Warthog.Hog carController; // Reference to the CarController script
 
     void Start()
     {
