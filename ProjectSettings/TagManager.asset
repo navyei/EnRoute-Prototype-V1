@@ -10,13 +10,13 @@ TagManager:
   - Walk
   - EventObject
   - Destroy
-  - M1
-  - NPC
   - Aim Target
   - Obstacle
   - LeaveStation
   - Car
-  - Customer
+  - Passenger
+  - Destination
+  - PickUpZone
   layers:
   - Default
   - TransparentFX
@@ -24,7 +24,7 @@ TagManager:
   - NPC
   - Water
   - UI
-  - Taxi
+  - Interior
   - Cooper
   - RaycastTarget
   - Player

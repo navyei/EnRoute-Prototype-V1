@@ -26,6 +26,7 @@ public class CameraSwitcher : MonoBehaviour
             ToggleCarController(false); // Disable CarController
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+            worldCamera.transform.parent?.gameObject.SetActive(true);
         }
 
         // Switch to Player Camera 1 with the 1 key
@@ -36,6 +37,7 @@ public class CameraSwitcher : MonoBehaviour
             ToggleCarController(true); // Enable CarController
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+            worldCamera.transform.parent?.gameObject.SetActive(false);
         }
     }
 
@@ -80,11 +82,4 @@ public class CameraSwitcher : MonoBehaviour
         }
     }
 }
-
-
-
-
-
-
-
 
