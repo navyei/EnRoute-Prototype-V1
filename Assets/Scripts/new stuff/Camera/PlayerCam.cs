@@ -25,22 +25,25 @@ public class PlayerCamera : MonoBehaviour
 
     void Update()
     {
-        // Adjust the rotation based on mouse input
-        CurrentRotationX += Input.GetAxis("Mouse Y") * cameraSmoothing * (-1);
-        CurrentRotationY += Input.GetAxis("Mouse X") * cameraSmoothing;
-
-        // Clamp the vertical rotation to limit looking up and down
-        CurrentRotationX = Mathf.Clamp(CurrentRotationX, LookUpmin, LookUpmax);
-
-        // Clamp the horizontal rotation to limit looking left and right
-        CurrentRotationY = Mathf.Clamp(CurrentRotationY, LookLeftmax, LookRightmax);
-
-        // Apply the rotation to the player's transform
-        transform.localRotation = Quaternion.Euler(CurrentRotationX, CurrentRotationY, transform.localRotation.eulerAngles.z);
-
-        if (Input.GetKeyDown(KeyCode.E))
+        if (!PauseMenu.isPaused)          
         {
-            TryInteractWithObject();
+            // Adjust the rotation based on mouse input
+            CurrentRotationX += Input.GetAxis("Mouse Y") * cameraSmoothing * (-1);
+            CurrentRotationY += Input.GetAxis("Mouse X") * cameraSmoothing;
+
+            // Clamp the vertical rotation to limit looking up and down
+            CurrentRotationX = Mathf.Clamp(CurrentRotationX, LookUpmin, LookUpmax);
+
+            // Clamp the horizontal rotation to limit looking left and right
+            CurrentRotationY = Mathf.Clamp(CurrentRotationY, LookLeftmax, LookRightmax);
+
+            // Apply the rotation to the player's transform
+            transform.localRotation = Quaternion.Euler(CurrentRotationX, CurrentRotationY, transform.localRotation.eulerAngles.z);
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                TryInteractWithObject();
+            }
         }
     }
 
