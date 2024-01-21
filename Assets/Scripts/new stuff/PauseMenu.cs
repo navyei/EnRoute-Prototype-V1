@@ -15,34 +15,31 @@ public class PauseMenu : MonoBehaviour
         {
             if (isPaused)
             {
-                Resume();
+                pauseMenuUI.SetActive(false);
+                Time.timeScale = 1f;
+                isPaused = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
             }
             else
             {
-                Pause();
+                pauseMenuUI.SetActive(true);
+                Time.timeScale = 0f;
+                isPaused = true;
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             }
         }
-    }
 
-    public void Resume()
-    {
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        isPaused = false;
-        // Lock and hide cursor
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
-
-    public void Pause()
-    {
-        pauseMenuUI.SetActive(true);
-        Time.timeScale = 0f;
-        isPaused = true;
-        // Unlock and show cursor
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-    }
-
-    // Add other methods for buttons like GoToMainMenu, QuitGame, etc.
 }
