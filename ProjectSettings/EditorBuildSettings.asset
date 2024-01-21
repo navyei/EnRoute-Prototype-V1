@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/new stuff/LevelSelect.unity
     guid: 7d407d42e68c0744082927e7a5233bc9
   - enabled: 0
-    path: Assets/Scenes/OldGameplay.unity
+    path: Assets/Scenes/Gameplay.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
     path: Assets/Scenes/new stuff/End Game.unity
